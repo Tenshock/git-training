@@ -1,0 +1,10 @@
+.direct-enter-active,
+.direct-leave-active {
+  transition: opacity 0.2s ease;
+}
+
+.direct-enter-from,
+.direct-leave-to {
+  opacity: 0;
+}
+

@@ -13,7 +13,7 @@
 
 1. Introduction
 2. Installation and configuration
-3. Fondamental principles
+3. Fundamental principles
 4. Commits and history
 5. References
 6. Merge - Rebase
@@ -32,7 +32,7 @@ This training is **two days long**. The trainer may have the below objectives to
 
 1. Introduction
 2. Installation and configuration
-3. Fondamental principles
+3. Fundamental principles
 4. Commits and history -> commit hands-on done and corrected
 
 **Evening** (aprox. 3h30):
