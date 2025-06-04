@@ -2,7 +2,7 @@
 routeAlias: other-commands-and-tools
 ---
 
-<img absolute src="../git-logo.png" w-10 top-2 right-2/>
+<img absolute src="../public/git-logo.png" w-10 top-2 right-2/>
 <SlideCurrentNo absolute bottom-0 right-2/>
 <Link to="other-commands-and-tools" absolute top-3.4 font-bold right-15 color="#db4c37">Other Commands and Tools</Link>
 
@@ -20,7 +20,7 @@ routeAlias: other-commands-and-tools
 10. <Link to="workflows">Workflows</Link>
 ---
 
-<img absolute src="../git-logo.png" w-10 top-2 right-2/>
+<img absolute src="../public/git-logo.png" w-10 top-2 right-2/>
 <SlideCurrentNo absolute bottom-0 right-2/>
 <Link to="other-commands-and-tools" absolute top-3.4 font-bold right-15 color="#db4c37">Other Commands and Tools</Link>
 
@@ -52,7 +52,7 @@ git unstage my_file.txt
 
 ---
 
-<img absolute src="../git-logo.png" w-10 top-2 right-2/>
+<img absolute src="../public/git-logo.png" w-10 top-2 right-2/>
 <SlideCurrentNo absolute bottom-0 right-2/>
 <Link to="other-commands-and-tools" absolute top-3.4 font-bold right-15 color="#db4c37">Other Commands and Tools</Link>
 
@@ -82,7 +82,7 @@ git stash apply stash@{n}
 clicks: 3
 ---
 
-<img absolute src="../git-logo.png" w-10 top-2 right-2/>
+<img absolute src="../public/git-logo.png" w-10 top-2 right-2/>
 <SlideCurrentNo absolute bottom-0 right-2/>
 <Link to="other-commands-and-tools" absolute top-3.4 font-bold right-15 color="#db4c37">Other Commands and Tools</Link>
 
@@ -101,15 +101,15 @@ git reset --hard 79c72 # or @^
 ```
 ````
 
-<img v-click="[0]" src="../revert-1.svg" top-70 absolute left="50%" translate-x="-50%"/>
-<img v-click="[1]" src="../revert-2.svg" top-70 absolute left="50%" translate-x="-50%"/>
-<img v-click="[2,4]" src="../revert-3.svg" top-70 absolute left="50%" translate-x="-50%"/>
+<img v-click="[0]" src="../public/revert-1.svg" top-70 absolute left="50%" translate-x="-50%"/>
+<img v-click="[1]" src="../public/revert-2.svg" top-70 absolute left="50%" translate-x="-50%"/>
+<img v-click="[2,4]" src="../public/revert-3.svg" top-70 absolute left="50%" translate-x="-50%"/>
 
 ---
 clicks: 2
 ---
 
-<img absolute src="../git-logo.png" w-10 top-2 right-2/>
+<img absolute src="../public/git-logo.png" w-10 top-2 right-2/>
 <SlideCurrentNo absolute bottom-0 right-2/>
 <Link to="other-commands-and-tools" absolute top-3.4 font-bold right-15 color="#db4c37">Other Commands and Tools</Link>
 
@@ -122,13 +122,13 @@ Given one or more existing commits, apply the change each one introduces, record
 git cherry-pick beaf4
 ```
 
-<img v-click="[0]" src="../cherry-pick-1.svg" scale-96 top-46 absolute left="45%" translate-x="-50%"/>
-<img v-click="[1]" src="../cherry-pick-2.svg" scale-96 top-46 absolute left="45%" translate-x="-50%"/>
-<img v-click="[2]" src="../cherry-pick-3.svg" scale-96 top-46 absolute left="45%" translate-x="-50%"/>
+<img v-click="[0]" src="../public/cherry-pick-1.svg" scale-96 top-46 absolute left="45%" translate-x="-50%"/>
+<img v-click="[1]" src="../public/cherry-pick-2.svg" scale-96 top-46 absolute left="45%" translate-x="-50%"/>
+<img v-click="[2]" src="../public/cherry-pick-3.svg" scale-96 top-46 absolute left="45%" translate-x="-50%"/>
 
 ---
 
-<img absolute src="../git-logo.png" w-10 top-2 right-2/>
+<img absolute src="../public/git-logo.png" w-10 top-2 right-2/>
 <SlideCurrentNo absolute bottom-0 right-2/>
 <Link to="other-commands-and-tools" absolute top-3.4 font-bold right-15 color="#db4c37">Other Commands and Tools</Link>
 
@@ -143,7 +143,7 @@ One repository, several working trees
 
 ---
 
-<img absolute src="../git-logo.png" w-10 top-2 right-2/>
+<img absolute src="../public/git-logo.png" w-10 top-2 right-2/>
 <SlideCurrentNo absolute bottom-0 right-2/>
 <Link to="other-commands-and-tools" absolute top-3.4 font-bold right-15 color="#db4c37">Other Commands and Tools</Link>
 
@@ -198,7 +198,7 @@ git worktree list
 
 ---
 
-<img absolute src="../git-logo.png" w-10 top-2 right-2/>
+<img absolute src="../public/git-logo.png" w-10 top-2 right-2/>
 <SlideCurrentNo absolute bottom-0 right-2/>
 <Link to="other-commands-and-tools" absolute top-3.4 font-bold right-15 color="#db4c37">Other Commands and Tools</Link>
 
@@ -266,7 +266,7 @@ git worktree remove tata
 ---
 
 <div border-7 border-blue absolute top-0 left-0 bottom-0 right-0 z="-1"/>
-<img absolute src="../git-logo.png" w-10 top-2 right-2/>
+<img absolute src="../public/git-logo.png" w-10 top-2 right-2/>
 <SlideCurrentNo absolute bottom-0 right-2/>
 <Link to="other-commands-and-tools" absolute top-3.4 font-bold right-15 color="#db4c37">Other Commands and Tools</Link>
 
@@ -289,7 +289,7 @@ cd worktree-tp
 ---
 
 <div border-7 border-green absolute top-0 left-0 bottom-0 right-0 z="-1"/>
-<img absolute src="../git-logo.png" w-10 top-2 right-2/>
+<img absolute src="../public/git-logo.png" w-10 top-2 right-2/>
 <SlideCurrentNo absolute bottom-0 right-2/>
 <Link to="other-commands-and-tools" absolute top-3.4 font-bold right-15 color="#db4c37">Other Commands and Tools</Link>
 
@@ -321,7 +321,7 @@ git worktree list
 ---
 
 <div border-7 border-green absolute top-0 left-0 bottom-0 right-0 z="-1"/>
-<img absolute src="../git-logo.png" w-10 top-2 right-2/>
+<img absolute src="../public/git-logo.png" w-10 top-2 right-2/>
 <SlideCurrentNo absolute bottom-0 right-2/>
 <Link to="other-commands-and-tools" absolute top-3.4 font-bold right-15 color="#db4c37">Other Commands and Tools</Link>
 
@@ -341,7 +341,7 @@ git worktree remove my-worktree --force # or -f
 
 ---
 
-<img absolute src="../git-logo.png" w-10 top-2 right-2/>
+<img absolute src="../public/git-logo.png" w-10 top-2 right-2/>
 <SlideCurrentNo absolute bottom-0 right-2/>
 <Link to="other-commands-and-tools" absolute top-3.4 font-bold right-15 color="#db4c37">Other Commands and Tools</Link>
 
@@ -377,7 +377,7 @@ cf376326 (Cédric Prezelin 2025-03-18 15:35:30 +0100 8)
 
 ---
 
-<img absolute src="../git-logo.png" w-10 top-2 right-2/>
+<img absolute src="../public/git-logo.png" w-10 top-2 right-2/>
 <SlideCurrentNo absolute bottom-0 right-2/>
 <Link to="other-commands-and-tools" absolute top-3.4 font-bold right-15 color="#db4c37">Other Commands and Tools</Link>
 
@@ -412,7 +412,7 @@ For a bug hunt on a 20 000 commits range, it will need maximum.. **14 iterations
 clicks: 12
 ---
 
-<img absolute src="../git-logo.png" w-10 top-2 right-2/>
+<img absolute src="../public/git-logo.png" w-10 top-2 right-2/>
 <SlideCurrentNo absolute bottom-0 right-2/>
 <Link to="other-commands-and-tools" absolute top-3.4 font-bold right-15 color="#db4c37">Other Commands and Tools</Link>
 
@@ -505,20 +505,20 @@ git bisect reset
 ```
 </div>
 
-<img v-click="[0,2]" src="../bisect-1.svg" scale-96 top-95 absolute left="50%" translate-x="-50%"/>
-<img v-click="[2]"   src="../bisect-2.svg" scale-96 top-95 absolute left="50%" translate-x="-50%"/>
-<img v-click="[3,5]"   src="../bisect-3.svg" scale-96 top-95 absolute left="50%" translate-x="-50%"/>
-<img v-click="[5,7]"   src="../bisect-4.svg" scale-96 top-95 absolute left="50%" translate-x="-50%"/>
-<img v-click="[7,9]"   src="../bisect-5.svg" scale-96 top-95 absolute left="50%" translate-x="-50%"/>
-<img v-click="[9,11]"   src="../bisect-6.svg" scale-96 top-95 absolute left="50%" translate-x="-50%"/>
-<img v-click="[11]"   src="../bisect-7.svg" scale-96 top-95 absolute left="50%" translate-x="-50%"/>
-<img v-click="[12]"   src="../bisect-1.svg" scale-96 top-95 absolute left="50%" translate-x="-50%"/>
+<img v-click="[0,2]" src="../public/bisect-1.svg" scale-96 top-95 absolute left="50%" translate-x="-50%"/>
+<img v-click="[2]"   src="../public/bisect-2.svg" scale-96 top-95 absolute left="50%" translate-x="-50%"/>
+<img v-click="[3,5]"   src="../public/bisect-3.svg" scale-96 top-95 absolute left="50%" translate-x="-50%"/>
+<img v-click="[5,7]"   src="../public/bisect-4.svg" scale-96 top-95 absolute left="50%" translate-x="-50%"/>
+<img v-click="[7,9]"   src="../public/bisect-5.svg" scale-96 top-95 absolute left="50%" translate-x="-50%"/>
+<img v-click="[9,11]"   src="../public/bisect-6.svg" scale-96 top-95 absolute left="50%" translate-x="-50%"/>
+<img v-click="[11]"   src="../public/bisect-7.svg" scale-96 top-95 absolute left="50%" translate-x="-50%"/>
+<img v-click="[12]"   src="../public/bisect-1.svg" scale-96 top-95 absolute left="50%" translate-x="-50%"/>
 
 ---
 clicks: 3
 ---
 
-<img absolute src="../git-logo.png" w-10 top-2 right-2/>
+<img absolute src="../public/git-logo.png" w-10 top-2 right-2/>
 <SlideCurrentNo absolute bottom-0 right-2/>
 <Link to="other-commands-and-tools" absolute top-3.4 font-bold right-15 color="#db4c37">Other Commands and Tools</Link>
 
@@ -551,14 +551,14 @@ Date:   Fri Mar 21 10:57:30 2025 +0100
 ````
 </div>
 
-<img v-click="[0,2]" src="../bisect-1.svg" scale-96 top-107 absolute left="50%" translate-x="-50%"/>
-<img v-click="[2]"   src="../bisect-3.svg" scale-96 top-107 absolute left="50%" translate-x="-50%"/>
-<img v-click="[3]"   src="../bisect-6.svg" scale-96 top-107 absolute left="50%" translate-x="-50%"/>
+<img v-click="[0,2]" src="../public/bisect-1.svg" scale-96 top-107 absolute left="50%" translate-x="-50%"/>
+<img v-click="[2]"   src="../public/bisect-3.svg" scale-96 top-107 absolute left="50%" translate-x="-50%"/>
+<img v-click="[3]"   src="../public/bisect-6.svg" scale-96 top-107 absolute left="50%" translate-x="-50%"/>
 
 ---
 
 <div border-7 border-blue absolute top-0 left-0 bottom-0 right-0 z="-1"/>
-<img absolute src="../git-logo.png" w-10 top-2 right-2/>
+<img absolute src="../public/git-logo.png" w-10 top-2 right-2/>
 <SlideCurrentNo absolute bottom-0 right-2/>
 <Link to="other-commands-and-tools" absolute top-3.4 font-bold right-15 color="#db4c37">Other Commands and Tools</Link>
 
@@ -579,7 +579,7 @@ cd bisect
 ---
 
 <div border-7 border-green absolute top-0 left-0 bottom-0 right-0 z="-1"/>
-<img absolute src="../git-logo.png" w-10 top-2 right-2/>
+<img absolute src="../public/git-logo.png" w-10 top-2 right-2/>
 <SlideCurrentNo absolute bottom-0 right-2/>
 <Link to="other-commands-and-tools" absolute top-3.4 font-bold right-15 color="#db4c37">Other Commands and Tools</Link>
 
@@ -608,7 +608,7 @@ git bisect run ./command.sh
 
 ---
 
-<img absolute src="../git-logo.png" w-10 top-2 right-2/>
+<img absolute src="../public/git-logo.png" w-10 top-2 right-2/>
 <SlideCurrentNo absolute bottom-0 right-2/>
 <Link to="other-commands-and-tools" absolute top-3.4 font-bold right-15 color="#db4c37">Other Commands and Tools</Link>
 
@@ -632,6 +632,6 @@ gitk
 - IDE GUIs (Git Lens, Jetbrains, etc)
 </v-click>
 
-<img v-click="2" src="../graphical-tools.png" w-150 mr-auto ml-auto mt-5/>
+<img v-click="2" src="../public/graphical-tools.png" w-150 mr-auto ml-auto mt-5/>
 
 

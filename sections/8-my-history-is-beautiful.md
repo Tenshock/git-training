@@ -2,7 +2,7 @@
 routeAlias: my-history-is-beautiful
 ---
 
-<img absolute src="../git-logo.png" w-10 top-2 right-2/>
+<img absolute src="../public/git-logo.png" w-10 top-2 right-2/>
 <SlideCurrentNo absolute bottom-0 right-2/>
 <Link to="other-commands-and-tools" absolute top-3.4 font-bold right-15 color="#db4c37">My History is Beautiful</Link>
 
@@ -22,7 +22,7 @@ routeAlias: my-history-is-beautiful
 ---
 
 <div border-7 border-orange absolute top-0 left-0 bottom-0 right-0 z="-1"/>
-<img absolute src="../git-logo.png" w-10 top-2 right-2/>
+<img absolute src="../public/git-logo.png" w-10 top-2 right-2/>
 <SlideCurrentNo absolute bottom-0 right-2/>
 <Link to="my-history-is-beautiful" absolute top-3.4 font-bold right-15 color="#db4c37">My History is Beautiful</Link>
 
@@ -46,7 +46,7 @@ RECOVERING FROM UPSTREAM REBASE
 clicks: 2
 ---
 
-<img absolute src="../git-logo.png" w-10 top-2 right-2/>
+<img absolute src="../public/git-logo.png" w-10 top-2 right-2/>
 <SlideCurrentNo absolute bottom-0 right-2/>
 <Link to="my-history-is-beautiful" absolute top-3.4 font-bold right-15 color="#db4c37">My History is Beautiful</Link>
 
@@ -73,13 +73,13 @@ pick 79c72 C4
 ````
 </div>
 
-<img v-click="[1,3]" src="../interactive.svg" top-91 absolute left="50%" translate-x="-50%"/>
+<img v-click="[1,3]" src="../public/interactive.svg" top-91 absolute left="50%" translate-x="-50%"/>
 
 ---
 clicks: 6
 ---
 
-<img absolute src="../git-logo.png" w-10 top-2 right-2/>
+<img absolute src="../public/git-logo.png" w-10 top-2 right-2/>
 <SlideCurrentNo absolute bottom-0 right-2/>
 <Link to="my-history-is-beautiful" absolute top-3.4 font-bold right-15 color="#db4c37">My History is Beautiful</Link>
 
@@ -112,15 +112,15 @@ Successfully rebased and updated refs/heads/main.
 ```
 ````
 
-<img v-click="[0,3]" src="../interactive-1.svg" top-60 absolute left="50%" translate-x="-50%"/>
-<img v-click="[3]"   src="../interactive-2.svg" top-60 absolute left="50%" translate-x="-50%"/>
-<img v-click="[4]"   src="../interactive-3.svg" top-60 absolute left="50%" translate-x="-50%"/>
-<img v-click="[5]"   src="../interactive-4.svg" top-60 absolute left="50%" translate-x="-50%"/>
-<img v-click="[6]"   src="../interactive-5.svg" top-60 absolute left="50%" translate-x="-50%"/>
+<img v-click="[0,3]" src="../public/interactive-1.svg" top-60 absolute left="50%" translate-x="-50%"/>
+<img v-click="[3]"   src="../public/interactive-2.svg" top-60 absolute left="50%" translate-x="-50%"/>
+<img v-click="[4]"   src="../public/interactive-3.svg" top-60 absolute left="50%" translate-x="-50%"/>
+<img v-click="[5]"   src="../public/interactive-4.svg" top-60 absolute left="50%" translate-x="-50%"/>
+<img v-click="[6]"   src="../public/interactive-5.svg" top-60 absolute left="50%" translate-x="-50%"/>
 
 ---
 
-<img absolute src="../git-logo.png" w-10 top-2 right-2/>
+<img absolute src="../public/git-logo.png" w-10 top-2 right-2/>
 <SlideCurrentNo absolute bottom-0 right-2/>
 <Link to="my-history-is-beautiful" absolute top-3.4 font-bold right-15 color="#db4c37">My History is Beautiful</Link>
 
@@ -139,7 +139,7 @@ Main actions
 clicks: 7
 ---
 
-<img absolute src="../git-logo.png" w-10 top-2 right-2/>
+<img absolute src="../public/git-logo.png" w-10 top-2 right-2/>
 <SlideCurrentNo absolute bottom-0 right-2/>
 <Link to="my-history-is-beautiful" absolute top-3.4 font-bold right-15 color="#db4c37">My History is Beautiful</Link>
 
@@ -172,14 +172,14 @@ Successfully rebased and updated refs/heads/main.
 ```
 ````
 
-<img v-click="[0,3]" src="../interactive-2-1.svg" top-60 absolute left="50%" translate-x="-50%"/>
-<img v-click="[3,6]" src="../interactive-2-2.svg" top-60 absolute left="50%" translate-x="-50%"/>
-<img v-click="[6]" src="../interactive-2-3.svg" top-60 absolute left="50%" translate-x="-50%"/>
-<img v-click="[7]" src="../interactive-2-4.svg" top-60 absolute left="50%" translate-x="-50%"/>
+<img v-click="[0,3]" src="../public/interactive-2-1.svg" top-60 absolute left="50%" translate-x="-50%"/>
+<img v-click="[3,6]" src="../public/interactive-2-2.svg" top-60 absolute left="50%" translate-x="-50%"/>
+<img v-click="[6]" src="../public/interactive-2-3.svg" top-60 absolute left="50%" translate-x="-50%"/>
+<img v-click="[7]" src="../public/interactive-2-4.svg" top-60 absolute left="50%" translate-x="-50%"/>
 
 ---
 
-<img absolute src="../git-logo.png" w-10 top-2 right-2/>
+<img absolute src="../public/git-logo.png" w-10 top-2 right-2/>
 <SlideCurrentNo absolute bottom-0 right-2/>
 <Link to="my-history-is-beautiful" absolute top-3.4 font-bold right-15 color="#db4c37">My History is Beautiful</Link>
 
@@ -209,7 +209,7 @@ git rebase --abort
 clicks: 10
 ---
 
-<img absolute src="../git-logo.png" w-10 top-2 right-2/>
+<img absolute src="../public/git-logo.png" w-10 top-2 right-2/>
 <SlideCurrentNo absolute bottom-0 right-2/>
 <Link to="my-history-is-beautiful" absolute top-3.4 font-bold right-15 color="#db4c37">My History is Beautiful</Link>
 
@@ -268,17 +268,17 @@ git rebase --continue
 ````
 </div>
 
-<img v-click="[0,3]" src="../interactive-3-1.svg" top-60 absolute left="50%" translate-x="-50%"/>
-<img v-click="[3,6]" src="../interactive-3-2.svg" top-60 absolute left="50%" translate-x="-50%"/>
-<img v-click="[6,8]"   src="../interactive-3-3.svg" top-60 absolute left="50%" translate-x="-50%"/>
-<img v-click="[8]"   src="../interactive-3-4.svg" top-60 absolute left="50%" translate-x="-50%"/>
-<img v-click="[9]"   src="../interactive-3-5.svg" top-60 absolute left="50%" translate-x="-50%"/>
-<img v-click="[10]"   src="../interactive-3-6.svg" top-60 absolute left="50%" translate-x="-50%"/>
+<img v-click="[0,3]" src="../public/interactive-3-1.svg" top-60 absolute left="50%" translate-x="-50%"/>
+<img v-click="[3,6]" src="../public/interactive-3-2.svg" top-60 absolute left="50%" translate-x="-50%"/>
+<img v-click="[6,8]"   src="../public/interactive-3-3.svg" top-60 absolute left="50%" translate-x="-50%"/>
+<img v-click="[8]"   src="../public/interactive-3-4.svg" top-60 absolute left="50%" translate-x="-50%"/>
+<img v-click="[9]"   src="../public/interactive-3-5.svg" top-60 absolute left="50%" translate-x="-50%"/>
+<img v-click="[10]"   src="../public/interactive-3-6.svg" top-60 absolute left="50%" translate-x="-50%"/>
 
 ---
 
 <div border-7 border-blue absolute top-0 left-0 bottom-0 right-0 z="-1"/>
-<img absolute src="../git-logo.png" w-10 top-2 right-2/>
+<img absolute src="../public/git-logo.png" w-10 top-2 right-2/>
 <SlideCurrentNo absolute bottom-0 right-2/>
 <Link to="my-history-is-beautiful" absolute top-3.4 font-bold right-15 color="#db4c37">My History is Beautiful</Link>
 
@@ -300,7 +300,7 @@ git switch interactive-rebase
 ---
 
 <div border-7 border-green absolute top-0 left-0 bottom-0 right-0 z="-1"/>
-<img absolute src="../git-logo.png" w-10 top-2 right-2/>
+<img absolute src="../public/git-logo.png" w-10 top-2 right-2/>
 <SlideCurrentNo absolute bottom-0 right-2/>
 <Link to="my-history-is-beautiful" absolute top-3.4 font-bold right-15 color="#db4c37">My History is Beautiful</Link>
 
@@ -322,7 +322,7 @@ pick 8bc4d52 add file4
 ---
 
 <div border-7 border-green absolute top-0 left-0 bottom-0 right-0 z="-1"/>
-<img absolute src="../git-logo.png" w-10 top-2 right-2/>
+<img absolute src="../public/git-logo.png" w-10 top-2 right-2/>
 <SlideCurrentNo absolute bottom-0 right-2/>
 <Link to="my-history-is-beautiful" absolute top-3.4 font-bold right-15 color="#db4c37">My History is Beautiful</Link>
 
@@ -353,7 +353,7 @@ pick 84a280c add file4
 ---
 
 <div border-7 border-green absolute top-0 left-0 bottom-0 right-0 z="-1"/>
-<img absolute src="../git-logo.png" w-10 top-2 right-2/>
+<img absolute src="../public/git-logo.png" w-10 top-2 right-2/>
 <SlideCurrentNo absolute bottom-0 right-2/>
 <Link to="my-history-is-beautiful" absolute top-3.4 font-bold right-15 color="#db4c37">My History is Beautiful</Link>
 
@@ -378,7 +378,7 @@ git rebase --continue
 ---
 
 <div border-7 border-green absolute top-0 left-0 bottom-0 right-0 z="-1"/>
-<img absolute src="../git-logo.png" w-10 top-2 right-2/>
+<img absolute src="../public/git-logo.png" w-10 top-2 right-2/>
 <SlideCurrentNo absolute bottom-0 right-2/>
 <Link to="my-history-is-beautiful" absolute top-3.4 font-bold right-15 color="#db4c37">My History is Beautiful</Link>
 
@@ -399,7 +399,7 @@ squash 3fe1a3f add file4
 ---
 
 <div border-7 border-green absolute top-0 left-0 bottom-0 right-0 z="-1"/>
-<img absolute src="../git-logo.png" w-10 top-2 right-2/>
+<img absolute src="../public/git-logo.png" w-10 top-2 right-2/>
 <SlideCurrentNo absolute bottom-0 right-2/>
 <Link to="my-history-is-beautiful" absolute top-3.4 font-bold right-15 color="#db4c37">My History is Beautiful</Link>
 
@@ -426,7 +426,7 @@ git rebase --continue
 ---
 
 <div border-7 border-green absolute top-0 left-0 bottom-0 right-0 z="-1"/>
-<img absolute src="../git-logo.png" w-10 top-2 right-2/>
+<img absolute src="../public/git-logo.png" w-10 top-2 right-2/>
 <SlideCurrentNo absolute bottom-0 right-2/>
 <Link to="my-history-is-beautiful" absolute top-3.4 font-bold right-15 color="#db4c37">My History is Beautiful</Link>
 
@@ -446,7 +446,7 @@ pick 23e55f9 add file3,file4
 
 ---
 
-<img absolute src="../git-logo.png" w-10 top-2 right-2/>
+<img absolute src="../public/git-logo.png" w-10 top-2 right-2/>
 <SlideCurrentNo absolute bottom-0 right-2/>
 <Link to="my-history-is-beautiful" absolute top-3.4 font-bold right-15 color="#db4c37">My History is Beautiful</Link>
 
@@ -470,7 +470,7 @@ Commits flavors:
 clicks: 7
 ---
 
-<img absolute src="../git-logo.png" w-10 top-2 right-2/>
+<img absolute src="../public/git-logo.png" w-10 top-2 right-2/>
 <SlideCurrentNo absolute bottom-0 right-2/>
 <Link to="my-history-is-beautiful" absolute top-3.4 font-bold right-15 color="#db4c37">My History is Beautiful</Link>
 
@@ -513,14 +513,14 @@ Successfully rebased and updated refs/heads/main.
 ````
 </div>
 
-<img v-click="[0,3]" src="../autosquash-1.svg" top-60 absolute left="50%" translate-x="-50%"/>
-<img v-click="[3,7]" src="../autosquash-2.svg" top-60 absolute left="50%" translate-x="-50%"/>
-<img v-click="[7]"   src="../autosquash-3.svg" top-60 absolute left="50%" translate-x="-50%"/>
+<img v-click="[0,3]" src="../public/autosquash-1.svg" top-60 absolute left="50%" translate-x="-50%"/>
+<img v-click="[3,7]" src="../public/autosquash-2.svg" top-60 absolute left="50%" translate-x="-50%"/>
+<img v-click="[7]"   src="../public/autosquash-3.svg" top-60 absolute left="50%" translate-x="-50%"/>
 
 ---
 
 <div border-7 border-blue absolute top-0 left-0 bottom-0 right-0 z="-1"/>
-<img absolute src="../git-logo.png" w-10 top-2 right-2/>
+<img absolute src="../public/git-logo.png" w-10 top-2 right-2/>
 <SlideCurrentNo absolute bottom-0 right-2/>
 <Link to="my-history-is-beautiful" absolute top-3.4 font-bold right-15 color="#db4c37">My History is Beautiful</Link>
 
@@ -543,7 +543,7 @@ git switch interactive-rebase-autosquash
 ---
 
 <div border-7 border-green absolute top-0 left-0 bottom-0 right-0 z="-1"/>
-<img absolute src="../git-logo.png" w-10 top-2 right-2/>
+<img absolute src="../public/git-logo.png" w-10 top-2 right-2/>
 <SlideCurrentNo absolute bottom-0 right-2/>
 <Link to="my-history-is-beautiful" absolute top-3.4 font-bold right-15 color="#db4c37">My History is Beautiful</Link>
 
@@ -571,7 +571,7 @@ git rebase -i --autosquash HEAD~6
 ---
 
 <div border-7 border-green absolute top-0 left-0 bottom-0 right-0 z="-1"/>
-<img absolute src="../git-logo.png" w-10 top-2 right-2/>
+<img absolute src="../public/git-logo.png" w-10 top-2 right-2/>
 <SlideCurrentNo absolute bottom-0 right-2/>
 <Link to="my-history-is-beautiful" absolute top-3.4 font-bold right-15 color="#db4c37">My History is Beautiful</Link>
 

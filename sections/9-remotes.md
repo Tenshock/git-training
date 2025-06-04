@@ -2,7 +2,7 @@
 routeAlias: remotes
 ---
 
-<img absolute src="../git-logo.png" w-10 top-2 right-2/>
+<img absolute src="../public/git-logo.png" w-10 top-2 right-2/>
 <SlideCurrentNo absolute bottom-0 right-2/>
 <Link to="remotes" absolute top-3.4 font-bold right-15 color="#db4c37">Remotes</Link>
 
@@ -21,7 +21,7 @@ routeAlias: remotes
 
 ---
 
-<img absolute src="../git-logo.png" w-10 top-2 right-2/>
+<img absolute src="../public/git-logo.png" w-10 top-2 right-2/>
 <SlideCurrentNo absolute bottom-0 right-2/>
 <Link to="remotes" absolute top-3.4 font-bold right-15 color="#db4c37">Remotes</Link>
 
@@ -45,7 +45,7 @@ git clone <repositoy_url> --depth 50
 
 ---
 
-<img absolute src="../git-logo.png" w-10 top-2 right-2/>
+<img absolute src="../public/git-logo.png" w-10 top-2 right-2/>
 <SlideCurrentNo absolute bottom-0 right-2/>
 <Link to="remotes" absolute top-3.4 font-bold right-15 color="#db4c37">Remotes</Link>
 
@@ -68,7 +68,7 @@ git clone --bare <repository_url>
 
 ---
 
-<img absolute src="../git-logo.png" w-10 top-2 right-2/>
+<img absolute src="../public/git-logo.png" w-10 top-2 right-2/>
 <SlideCurrentNo absolute bottom-0 right-2/>
 <Link to="remotes" absolute top-3.4 font-bold right-15 color="#db4c37">Remotes</Link>
 
@@ -93,7 +93,7 @@ git branch --all # or git branch -a
 clicks: 6
 ---
 
-<img absolute src="../git-logo.png" w-10 top-2 right-2/>
+<img absolute src="../public/git-logo.png" w-10 top-2 right-2/>
 <SlideCurrentNo absolute bottom-0 right-2/>
 <Link to="remotes" absolute top-3.4 font-bold right-15 color="#db4c37">Remotes</Link>
 
@@ -122,17 +122,17 @@ git fetch --prune-tags
 ```
 ````
 
-<img v-click="[0,2]" src="../fetch-1.svg" top-73 h-70 absolute left="50%" translate-x="-50%"/>
-<img v-click="[2,4]" src="../fetch-2.svg" top-73 h-70 absolute left="50%" translate-x="-50%"/>
-<img v-click="[4,6]" src="../fetch-3.svg" top-73 h-70 absolute left="50%" translate-x="-50%"/>
-<img v-click="[6]"   src="../fetch-4.svg" top-73 h-70 absolute left="50%" translate-x="-50%"/>
+<img v-click="[0,2]" src="../public/fetch-1.svg" top-73 h-70 absolute left="50%" translate-x="-50%"/>
+<img v-click="[2,4]" src="../public/fetch-2.svg" top-73 h-70 absolute left="50%" translate-x="-50%"/>
+<img v-click="[4,6]" src="../public/fetch-3.svg" top-73 h-70 absolute left="50%" translate-x="-50%"/>
+<img v-click="[6]"   src="../public/fetch-4.svg" top-73 h-70 absolute left="50%" translate-x="-50%"/>
 </div>
 
 ---
 clicks: 7
 ---
 
-<img absolute src="../git-logo.png" w-10 top-2 right-2/>
+<img absolute src="../public/git-logo.png" w-10 top-2 right-2/>
 <SlideCurrentNo absolute bottom-0 right-2/>
 <Link to="remotes" absolute top-3.4 font-bold right-15 color="#db4c37">Remotes</Link>
 
@@ -160,19 +160,19 @@ git config [--local | --global] pull.rebase true
 ```
 ````
 
-<img v-click="[0,2]" src="../pull-1.svg" top-83 h-58 absolute left="50%" translate-x="-50%"/>
-<img v-click="[2]" src="../pull-2.svg" top-83 h-58 absolute left="50%" translate-x="-50%"/>
-<img v-click="[3]" src="../pull-3.svg" top-83 h-58 absolute left="50%" translate-x="-50%"/>
-<img v-click="[4]" src="../pull-1.svg" top-83 h-58 absolute left="50%" translate-x="-50%"/>
-<img v-click="[5]" src="../pull-2.svg" top-83 h-58 absolute left="50%" translate-x="-50%"/>
-<img v-click="[6,9]" src="../pull-4.svg" top-83 h-58 absolute left="50%" translate-x="-50%"/>
+<img v-click="[0,2]" src="../public/pull-1.svg" top-83 h-58 absolute left="50%" translate-x="-50%"/>
+<img v-click="[2]" src="../public/pull-2.svg" top-83 h-58 absolute left="50%" translate-x="-50%"/>
+<img v-click="[3]" src="../public/pull-3.svg" top-83 h-58 absolute left="50%" translate-x="-50%"/>
+<img v-click="[4]" src="../public/pull-1.svg" top-83 h-58 absolute left="50%" translate-x="-50%"/>
+<img v-click="[5]" src="../public/pull-2.svg" top-83 h-58 absolute left="50%" translate-x="-50%"/>
+<img v-click="[6,9]" src="../public/pull-4.svg" top-83 h-58 absolute left="50%" translate-x="-50%"/>
 </div>
 
 ---
 clicks: 9
 ---
 
-<img absolute src="../git-logo.png" w-10 top-2 right-2/>
+<img absolute src="../public/git-logo.png" w-10 top-2 right-2/>
 <SlideCurrentNo absolute bottom-0 right-2/>
 <Link to="remotes" absolute top-3.4 font-bold right-15 color="#db4c37">Remotes</Link>
 
@@ -219,11 +219,11 @@ git push origin main:main --force
 - `--force-with-lease`: allows only if the local remote ref is equal to the remote ref
 </div>
 
-<img v-click="[0,4]" src="../push-1.svg" top-87 h-53 absolute left="50%" translate-x="-50%"/>
-<img v-click="[4,6]" src="../push-2.svg" top-87 h-53 absolute left="50%" translate-x="-50%"/>
-<img v-click="[6]" src="../push-3.svg" top-87 h-53 absolute left="50%" translate-x="-50%"/>
-<img v-click="[7]" src="../push-4.svg" top-87 h-53 absolute left="50%" translate-x="-50%"/>
-<img v-click="[8,10]" src="../push-5.svg" top-87 h-53 absolute left="50%" translate-x="-50%"/>
+<img v-click="[0,4]" src="../public/push-1.svg" top-87 h-53 absolute left="50%" translate-x="-50%"/>
+<img v-click="[4,6]" src="../public/push-2.svg" top-87 h-53 absolute left="50%" translate-x="-50%"/>
+<img v-click="[6]" src="../public/push-3.svg" top-87 h-53 absolute left="50%" translate-x="-50%"/>
+<img v-click="[7]" src="../public/push-4.svg" top-87 h-53 absolute left="50%" translate-x="-50%"/>
+<img v-click="[8,10]" src="../public/push-5.svg" top-87 h-53 absolute left="50%" translate-x="-50%"/>
 </div>
 
 
@@ -231,7 +231,7 @@ git push origin main:main --force
 clicks: 7
 ---
 
-<img absolute src="../git-logo.png" w-10 top-2 right-2/>
+<img absolute src="../public/git-logo.png" w-10 top-2 right-2/>
 <SlideCurrentNo absolute bottom-0 right-2/>
 <Link to="remotes" absolute top-3.4 font-bold right-15 color="#db4c37">Remotes</Link>
 
@@ -275,17 +275,17 @@ git push
 ```
 ````
 
-<img v-click="[0,5]" src="../upstream-1.svg" top-87 h-53 absolute left="50%" translate-x="-50%"/>
-<img v-click="[5]" src="../upstream-2.svg" top-87 h-53 absolute left="50%" translate-x="-50%"/>
-<img v-click="[6]" src="../upstream-3.svg" top-87 h-53 absolute left="50%" translate-x="-50%"/>
-<img v-click="[7]" src="../upstream-4.svg" top-87 h-53 absolute left="50%" translate-x="-50%"/>
+<img v-click="[0,5]" src="../public/upstream-1.svg" top-87 h-53 absolute left="50%" translate-x="-50%"/>
+<img v-click="[5]" src="../public/upstream-2.svg" top-87 h-53 absolute left="50%" translate-x="-50%"/>
+<img v-click="[6]" src="../public/upstream-3.svg" top-87 h-53 absolute left="50%" translate-x="-50%"/>
+<img v-click="[7]" src="../public/upstream-4.svg" top-87 h-53 absolute left="50%" translate-x="-50%"/>
 </div>
 
 ---
 clicks: 5
 ---
 
-<img absolute src="../git-logo.png" w-10 top-2 right-2/>
+<img absolute src="../public/git-logo.png" w-10 top-2 right-2/>
 <SlideCurrentNo absolute bottom-0 right-2/>
 <Link to="remotes" absolute top-3.4 font-bold right-15 color="#db4c37">Remotes</Link>
 
@@ -321,15 +321,15 @@ git switch --create test --track origin/test
 ```
 ````
 
-<img v-click="[0,3]" src="../track-1.svg" top-65 h-70 absolute left="50%" translate-x="-50%"/>
-<img v-click="[3]"   src="../track-2.svg" top-65 h-70 absolute left="50%" translate-x="-50%"/>
-<img v-click="[4,6]" src="../track-3.svg" top-65 h-70 absolute left="50%" translate-x="-50%"/>
+<img v-click="[0,3]" src="../public/track-1.svg" top-65 h-70 absolute left="50%" translate-x="-50%"/>
+<img v-click="[3]"   src="../public/track-2.svg" top-65 h-70 absolute left="50%" translate-x="-50%"/>
+<img v-click="[4,6]" src="../public/track-3.svg" top-65 h-70 absolute left="50%" translate-x="-50%"/>
 
 ---
 clicks: 2
 ---
 
-<img absolute src="../git-logo.png" w-10 top-2 right-2/>
+<img absolute src="../public/git-logo.png" w-10 top-2 right-2/>
 <SlideCurrentNo absolute bottom-0 right-2/>
 <Link to="remotes" absolute top-3.4 font-bold right-15 color="#db4c37">Remotes</Link>
 
@@ -347,14 +347,14 @@ git push origin :test
 ```
 ````
 
-<img v-click="[0]" src="../remote-delete-1.svg" top-65 h-70 absolute left="50%" translate-x="-50%"/>
-<img v-click="[1,3]" src="../remote-delete-2.svg"   top-65 h-70 absolute left="50%" translate-x="-50%"/>
+<img v-click="[0]" src="../public/remote-delete-1.svg" top-65 h-70 absolute left="50%" translate-x="-50%"/>
+<img v-click="[1,3]" src="../public/remote-delete-2.svg"   top-65 h-70 absolute left="50%" translate-x="-50%"/>
 
 ---
 clicks: 2
 ---
 
-<img absolute src="../git-logo.png" w-10 top-2 right-2/>
+<img absolute src="../public/git-logo.png" w-10 top-2 right-2/>
 <SlideCurrentNo absolute bottom-0 right-2/>
 <Link to="remotes" absolute top-3.4 font-bold right-15 color="#db4c37">Remotes</Link>
 
@@ -371,14 +371,14 @@ git push --tags
 ```
 ````
 
-<img v-click="[0]" src="../push-tag-1.svg" top-65 h-70 absolute left="50%" translate-x="-50%"/>
-<img v-click="[1]" src="../push-tag-2.svg" top-65 h-70 absolute left="50%" translate-x="-50%"/>
-<img v-click="[2]" src="../push-tag-3.svg" top-65 h-70 absolute left="50%" translate-x="-50%"/>
+<img v-click="[0]" src="../public/push-tag-1.svg" top-65 h-70 absolute left="50%" translate-x="-50%"/>
+<img v-click="[1]" src="../public/push-tag-2.svg" top-65 h-70 absolute left="50%" translate-x="-50%"/>
+<img v-click="[2]" src="../public/push-tag-3.svg" top-65 h-70 absolute left="50%" translate-x="-50%"/>
 
 ---
 
 <div border-7 border-blue absolute top-0 left-0 bottom-0 right-0 z="-1"/>
-<img absolute src="../git-logo.png" w-10 top-2 right-2/>
+<img absolute src="../public/git-logo.png" w-10 top-2 right-2/>
 <SlideCurrentNo absolute bottom-0 right-2/>
 <Link to="remotes" absolute top-3.4 font-bold right-15 color="#db4c37">Remotes</Link>
 
@@ -399,7 +399,7 @@ git push --tags
 ---
 
 <div border-7 border-green absolute top-0 left-0 bottom-0 right-0 z="-1"/>
-<img absolute src="../git-logo.png" w-10 top-2 right-2/>
+<img absolute src="../public/git-logo.png" w-10 top-2 right-2/>
 <SlideCurrentNo absolute bottom-0 right-2/>
 <Link to="remotes" absolute top-3.4 font-bold right-15 color="#db4c37">Remotes</Link>
 
@@ -436,7 +436,7 @@ git push --set-upstream origin main
 ---
 
 <div border-7 border-green absolute top-0 left-0 bottom-0 right-0 z="-1"/>
-<img absolute src="../git-logo.png" w-10 top-2 right-2/>
+<img absolute src="../public/git-logo.png" w-10 top-2 right-2/>
 <SlideCurrentNo absolute bottom-0 right-2/>
 <Link to="remotes" absolute top-3.4 font-bold right-15 color="#db4c37">Remotes</Link>
 
@@ -477,13 +477,13 @@ git branch -a
 clicks: 2
 ---
 
-<img absolute src="../git-logo.png" w-10 top-2 right-2/>
+<img absolute src="../public/git-logo.png" w-10 top-2 right-2/>
 <SlideCurrentNo absolute bottom-0 right-2/>
 <Link to="remotes" absolute top-3.4 font-bold right-15 color="#db4c37">Remotes</Link>
 
 # Collaborative Projects
 Another way to work together
 
-<img v-click="[0]" src="../os-contrib-1.svg" absolute top-30 left="50%" translate-x="-50%" h-100/>
-<img v-click="[1]" src="../os-contrib-2.svg" absolute top-30 left="50%" translate-x="-50%" h-100/>
-<img v-click="[2]" src="../os-contrib-3.svg" absolute top-30 left="50%" translate-x="-50%" h-100/>
+<img v-click="[0]" src="../public/os-contrib-1.svg" absolute top-30 left="50%" translate-x="-50%" h-100/>
+<img v-click="[1]" src="../public/os-contrib-2.svg" absolute top-30 left="50%" translate-x="-50%" h-100/>
+<img v-click="[2]" src="../public/os-contrib-3.svg" absolute top-30 left="50%" translate-x="-50%" h-100/>

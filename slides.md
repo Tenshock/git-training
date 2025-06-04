@@ -19,7 +19,7 @@ lineNumbers: true
 layout: center
 ---
 
-<img absolute src="./git-logo.png" w-10 top-2 right-2/>
+<img absolute src="./public/git-logo.png" w-10 top-2 right-2/>
 <SlideCurrentNo absolute bottom-0 right-2/>
 
 # Training objectives

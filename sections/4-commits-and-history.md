@@ -2,7 +2,7 @@
 routeAlias: commits-and-history
 ---
 
-<img absolute src="../git-logo.png" w-10 top-2 right-2/>
+<img absolute src="../public/git-logo.png" w-10 top-2 right-2/>
 <SlideCurrentNo absolute bottom-0 right-2/>
 <Link to="commits-and-history" absolute top-3.4 font-bold right-15 color="#db4c37">Commits and history</Link>
 
@@ -21,7 +21,7 @@ routeAlias: commits-and-history
 ---
 
 <div border-7 border-orange absolute top-0 left-0 bottom-0 right-0 z="-1"/>
-<img absolute src="../git-logo.png" w-10 top-2 right-2/>
+<img absolute src="../public/git-logo.png" w-10 top-2 right-2/>
 <SlideCurrentNo absolute bottom-0 right-2/>
 <Link to="commits-and-history" absolute top-3.4 font-bold right-15 color="#db4c37">Commits and history</Link>
 
@@ -50,7 +50,7 @@ git <command> .
 ---
 
 <div border-7 border-orange absolute top-0 left-0 bottom-0 right-0 z="-1"/>
-<img absolute src="../git-logo.png" w-10 top-2 right-2/>
+<img absolute src="../public/git-logo.png" w-10 top-2 right-2/>
 <SlideCurrentNo absolute bottom-0 right-2/>
 <Link to="commits-and-history" absolute top-3.4 font-bold right-15 color="#db4c37">Commits and history</Link>
 
@@ -74,7 +74,7 @@ A commit reference.
 
 ---
 
-<img absolute src="../git-logo.png" w-10 top-2 right-2/>
+<img absolute src="../public/git-logo.png" w-10 top-2 right-2/>
 <SlideCurrentNo absolute bottom-0 right-2/>
 <Link to="commits-and-history" absolute top-3.4 font-bold right-15 color="#db4c37">Commits and history</Link>
 
@@ -98,7 +98,7 @@ A commit reference.
 
 ---
 
-<img absolute src="../git-logo.png" w-10 top-2 right-2/>
+<img absolute src="../public/git-logo.png" w-10 top-2 right-2/>
 <SlideCurrentNo absolute bottom-0 right-2/>
 <Link to="commits-and-history" absolute top-3.4 font-bold right-15 color="#db4c37">Commits and history</Link>
 
@@ -106,7 +106,7 @@ A commit reference.
 
 <div v-click.hide="2" bg-white absolute w-24 h-22 top-25 left-70/>
 <div v-click.hide="3" bg-white absolute w-32 h-22 top-40 left-143/>
-<img src="../commit-lifecycle.svg" ml-auto mr-auto h-40/>
+<img src="../public/commit-lifecycle.svg" ml-auto mr-auto h-40/>
 
 <v-click>
 
@@ -140,21 +140,21 @@ git commit -m "docs: update CONTRIBUTING instructions"
 clicks: 4
 ---
 
-<img absolute src="../git-logo.png" w-10 top-2 right-2/>
+<img absolute src="../public/git-logo.png" w-10 top-2 right-2/>
 <SlideCurrentNo absolute bottom-0 right-2/>
 <Link to="commits-and-history" absolute top-3.4 font-bold right-15 color="#db4c37">Commits and history</Link>
 
 # File lifecycle
 
-<img v-click="[0]" src="../file-lifecycle-1.svg" absolute h-100 left-5/>
-<img v-click="[1]" src="../file-lifecycle-2.svg" absolute h-100 left-5/>
-<img v-click="[2]" src="../file-lifecycle-3.svg" absolute h-100 left-5/>
-<img v-click="[3]" src="../file-lifecycle-4.svg" absolute h-100 left-5/>
-<img v-click="[4]" src="../file-lifecycle-5.svg" absolute h-100 left-5/>
+<img v-click="[0]" src="../public/file-lifecycle-1.svg" absolute h-100 left-5/>
+<img v-click="[1]" src="../public/file-lifecycle-2.svg" absolute h-100 left-5/>
+<img v-click="[2]" src="../public/file-lifecycle-3.svg" absolute h-100 left-5/>
+<img v-click="[3]" src="../public/file-lifecycle-4.svg" absolute h-100 left-5/>
+<img v-click="[4]" src="../public/file-lifecycle-5.svg" absolute h-100 left-5/>
 
 ---
 
-<img absolute src="../git-logo.png" w-10 top-2 right-2/>
+<img absolute src="../public/git-logo.png" w-10 top-2 right-2/>
 <SlideCurrentNo absolute bottom-0 right-2/>
 <Link to="commits-and-history" absolute top-3.4 font-bold right-15 color="#db4c37">Commits and history</Link>
 
@@ -195,7 +195,7 @@ git status --short --branch # or git status -sb
 
 ---
 
-<img absolute src="../git-logo.png" w-10 top-2 right-2/>
+<img absolute src="../public/git-logo.png" w-10 top-2 right-2/>
 <SlideCurrentNo absolute bottom-0 right-2/>
 <Link to="commits-and-history" absolute top-3.4 font-bold right-15 color="#db4c37">Commits and history</Link>
 
@@ -214,7 +214,7 @@ git add --all # or git add -A
 
 ---
 
-<img absolute src="../git-logo.png" w-10 top-2 right-2/>
+<img absolute src="../public/git-logo.png" w-10 top-2 right-2/>
 <SlideCurrentNo absolute bottom-0 right-2/>
 <Link to="commits-and-history" absolute top-3.4 font-bold right-15 color="#db4c37">Commits and history</Link>
 
@@ -241,7 +241,7 @@ By default, it is **equal to `HEAD`**.
 </div>
 ---
 
-<img absolute src="../git-logo.png" w-10 top-2 right-2/>
+<img absolute src="../public/git-logo.png" w-10 top-2 right-2/>
 <SlideCurrentNo absolute bottom-0 right-2/>
 <Link to="commits-and-history" absolute top-3.4 font-bold right-15 color="#db4c37">Commits and history</Link>
 
@@ -263,7 +263,7 @@ git rm -r <pathspec>
 
 ---
 
-<img absolute src="../git-logo.png" w-10 top-2 right-2/>
+<img absolute src="../public/git-logo.png" w-10 top-2 right-2/>
 <SlideCurrentNo absolute bottom-0 right-2/>
 <Link to="commits-and-history" absolute top-3.4 font-bold right-15 color="#db4c37">Commits and history</Link>
 
@@ -287,7 +287,7 @@ git diff <commit> <commit> <pathspec>
 
 ---
 
-<img absolute src="../git-logo.png" w-10 top-2 right-2/>
+<img absolute src="../public/git-logo.png" w-10 top-2 right-2/>
 <SlideCurrentNo absolute bottom-0 right-2/>
 <Link to="commits-and-history" absolute top-3.4 font-bold right-15 color="#db4c37">Commits and history</Link>
 
@@ -309,7 +309,7 @@ git commit --all # or git commit -a
 
 ---
 
-<img absolute src="../git-logo.png" w-10 top-2 right-2/>
+<img absolute src="../public/git-logo.png" w-10 top-2 right-2/>
 <SlideCurrentNo absolute bottom-0 right-2/>
 <Link to="commits-and-history" absolute top-3.4 font-bold right-15 color="#db4c37">Commits and history</Link>
 
@@ -331,7 +331,7 @@ git commit --amend --no-edit
 
 ---
 
-<img absolute src="../git-logo.png" w-10 top-2 right-2/>
+<img absolute src="../public/git-logo.png" w-10 top-2 right-2/>
 <SlideCurrentNo absolute bottom-0 right-2/>
 <Link to="commits-and-history" absolute top-3.4 font-bold right-15 color="#db4c37">Commits and history</Link>
 
@@ -363,7 +363,7 @@ git log --graph
 ---
 
 <div border-7 border-blue absolute top-0 left-0 bottom-0 right-0 z="-1"/>
-<img absolute src="../git-logo.png" w-10 top-2 right-2/>
+<img absolute src="../public/git-logo.png" w-10 top-2 right-2/>
 <SlideCurrentNo absolute bottom-0 right-2/>
 <Link to="commits-and-history" absolute top-3.4 font-bold right-15 color="#db4c37">Commits and history</Link>
 
@@ -390,7 +390,7 @@ git log --graph
 ---
 
 <div border-7 border-green absolute top-0 left-0 bottom-0 right-0 z="-1"/>
-<img absolute src="../git-logo.png" w-10 top-2 right-2/>
+<img absolute src="../public/git-logo.png" w-10 top-2 right-2/>
 <SlideCurrentNo absolute bottom-0 right-2/>
 <Link to="commits-and-history" absolute top-3.4 font-bold right-15 color="#db4c37">Commits and history</Link>
 
@@ -429,7 +429,7 @@ vim CONTRIBUTING.md
 ---
 
 <div border-7 border-green absolute top-0 left-0 bottom-0 right-0 z="-1"/>
-<img absolute src="../git-logo.png" w-10 top-2 right-2/>
+<img absolute src="../public/git-logo.png" w-10 top-2 right-2/>
 <SlideCurrentNo absolute bottom-0 right-2/>
 <Link to="commits-and-history" absolute top-3.4 font-bold right-15 color="#db4c37">Commits and history</Link>
 
@@ -467,7 +467,7 @@ git restore README.md
 ---
 
 <div border-7 border-green absolute top-0 left-0 bottom-0 right-0 z="-1"/>
-<img absolute src="../git-logo.png" w-10 top-2 right-2/>
+<img absolute src="../public/git-logo.png" w-10 top-2 right-2/>
 <SlideCurrentNo absolute bottom-0 right-2/>
 <Link to="commits-and-history" absolute top-3.4 font-bold right-15 color="#db4c37">Commits and history</Link>
 
@@ -493,7 +493,7 @@ git commit --amend --no-edit --author=’John Doe <john.doe@git.com>’ --date=�
 
 ---
 
-<img absolute src="../git-logo.png" w-10 top-2 right-2/>
+<img absolute src="../public/git-logo.png" w-10 top-2 right-2/>
 <SlideCurrentNo absolute bottom-0 right-2/>
 <Link to="commits-and-history" absolute top-3.4 font-bold right-15 color="#db4c37">Commits and history</Link>
 
@@ -520,7 +520,7 @@ Infra team warns about potential malicious requests through websocket
 
 ---
 
-<img absolute src="../git-logo.png" w-10 top-2 right-2/>
+<img absolute src="../public/git-logo.png" w-10 top-2 right-2/>
 <SlideCurrentNo absolute bottom-0 right-2/>
 <Link to="commits-and-history" absolute top-3.4 font-bold right-15 color="#db4c37">Commits and history</Link>
 
@@ -551,7 +551,7 @@ closes #19203
 
 ---
 
-<img absolute src="../git-logo.png" w-10 top-2 right-2/>
+<img absolute src="../public/git-logo.png" w-10 top-2 right-2/>
 <SlideCurrentNo absolute bottom-0 right-2/>
 <Link to="commits-and-history" absolute top-3.4 font-bold right-15 color="#db4c37">Commits and history</Link>
 
@@ -568,7 +568,7 @@ Advantages:
 
 ---
 
-<img absolute src="../git-logo.png" w-10 top-2 right-2/>
+<img absolute src="../public/git-logo.png" w-10 top-2 right-2/>
 <SlideCurrentNo absolute bottom-0 right-2/>
 <Link to="commits-and-history" absolute top-3.4 font-bold right-15 color="#db4c37">Commits and history</Link>
 

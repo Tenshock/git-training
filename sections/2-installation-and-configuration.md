@@ -2,7 +2,7 @@
 routeAlias: installation-and-configuration
 ---
 
-<img absolute src="../git-logo.png" w-10 top-2 right-2/>
+<img absolute src="../public/git-logo.png" w-10 top-2 right-2/>
 <SlideCurrentNo absolute bottom-0 right-2/>
 <Link to="installation-and-configuration" absolute top-3.4 font-bold right-15 color="#db4c37">Installation and configuration</Link>
 
@@ -20,7 +20,7 @@ routeAlias: installation-and-configuration
 10. <Link to="workflows">Workflows</Link>
 ---
 
-<img absolute src="../git-logo.png" w-10 top-2 right-2/>
+<img absolute src="../public/git-logo.png" w-10 top-2 right-2/>
 <SlideCurrentNo absolute bottom-0 right-2/>
 <Link to="installation-and-configuration" absolute top-3.4 font-bold right-15 color="#db4c37">Installation and configuration</Link>
 
@@ -41,7 +41,7 @@ routeAlias: installation-and-configuration
 
 ---
 
-<img absolute src="../git-logo.png" w-10 top-2 right-2/>
+<img absolute src="../public/git-logo.png" w-10 top-2 right-2/>
 <SlideCurrentNo absolute bottom-0 right-2/>
 <Link to="installation-and-configuration" absolute top-3.4 font-bold right-15 color="#db4c37">Installation and configuration</Link>
 
@@ -60,7 +60,7 @@ routeAlias: installation-and-configuration
 
 ---
 
-<img absolute src="../git-logo.png" w-10 top-2 right-2/>
+<img absolute src="../public/git-logo.png" w-10 top-2 right-2/>
 <SlideCurrentNo absolute bottom-0 right-2/>
 <Link to="installation-and-configuration" absolute top-3.4 font-bold right-15 color="#db4c37">Installation and configuration</Link>
 
@@ -77,7 +77,7 @@ routeAlias: installation-and-configuration
 
 ---
 
-<img absolute src="../git-logo.png" w-10 top-2 right-2/>
+<img absolute src="../public/git-logo.png" w-10 top-2 right-2/>
 <SlideCurrentNo absolute bottom-0 right-2/>
 <Link to="installation-and-configuration" absolute top-3.4 font-bold right-15 color="#db4c37">Installation and configuration</Link>
 
@@ -106,7 +106,7 @@ Defines a behavior for files per path
 ```
 ---
 
-<img absolute src="../git-logo.png" w-10 top-2 right-2/>
+<img absolute src="../public/git-logo.png" w-10 top-2 right-2/>
 <SlideCurrentNo absolute bottom-0 right-2/>
 <Link to="installation-and-configuration" absolute top-3.4 font-bold right-15 color="#db4c37">Installation and configuration</Link>
 

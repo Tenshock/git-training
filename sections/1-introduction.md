@@ -2,7 +2,7 @@
 routeAlias: introduction
 ---
 
-<img absolute src="../git-logo.png" w-10 top-2 right-2/>
+<img absolute src="../public/git-logo.png" w-10 top-2 right-2/>
 <SlideCurrentNo absolute bottom-0 right-2/>
 <Link to="introduction" absolute top-3.4 font-bold right-15 color="#db4c37">Introduction</Link>
 
@@ -21,7 +21,7 @@ routeAlias: introduction
 
 ---
 
-<img absolute src="../git-logo.png" w-10 top-2 right-2/>
+<img absolute src="../public/git-logo.png" w-10 top-2 right-2/>
 <SlideCurrentNo absolute bottom-0 right-2/>
 <Link to="introduction" absolute top-3.4 font-bold right-15 color="#db4c37">Introduction</Link>
 
@@ -43,7 +43,7 @@ routeAlias: introduction
 
 ---
 
-<img absolute src="../git-logo.png" w-10 top-2 right-2/>
+<img absolute src="../public/git-logo.png" w-10 top-2 right-2/>
 <SlideCurrentNo absolute bottom-0 right-2/>
 <Link to="introduction" absolute top-3.4 font-bold right-15 color="#db4c37">Introduction</Link>
 
@@ -65,7 +65,7 @@ routeAlias: introduction
 
 ---
 
-<img absolute src="../git-logo.png" w-10 top-2 right-2/>
+<img absolute src="../public/git-logo.png" w-10 top-2 right-2/>
 <SlideCurrentNo absolute bottom-0 right-2/>
 <Link to="introduction" absolute top-3.4 font-bold right-15 color="#db4c37">Introduction</Link>
 
@@ -73,11 +73,11 @@ routeAlias: introduction
 
 **Offline work impossible**
 
-<img ml-3 src="../centralized-vcs.svg" />
+<img ml-3 src="../public/centralized-vcs.svg" />
 
 ---
 
-<img absolute src="../git-logo.png" w-10 top-2 right-2/>
+<img absolute src="../public/git-logo.png" w-10 top-2 right-2/>
 <SlideCurrentNo absolute bottom-0 right-2/>
 <Link to="introduction" absolute top-3.4 font-bold right-15 color="#db4c37">Introduction</Link>
 
@@ -85,11 +85,11 @@ routeAlias: introduction
 
 **Complete decentralization, tier-tier coordination**
 
-<img ml-15 src="../tier-tier-decentralized-vcs.svg" />
+<img ml-15 src="../public/tier-tier-decentralized-vcs.svg" />
 
 ---
 
-<img absolute src="../git-logo.png" w-10 top-2 right-2/>
+<img absolute src="../public/git-logo.png" w-10 top-2 right-2/>
 <SlideCurrentNo absolute bottom-0 right-2/>
 <Link to="introduction" absolute top-3.4 font-bold right-15 color="#db4c37">Introduction</Link>
 
@@ -97,4 +97,4 @@ routeAlias: introduction
 
 **Coordination by central repository**
 
-<img ml-5 src="../coord-decentralized-vcs.svg" />
+<img ml-5 src="../public/coord-decentralized-vcs.svg" />

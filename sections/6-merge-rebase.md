@@ -2,7 +2,7 @@
 routeAlias: merge-rebase
 ---
 
-<img absolute src="../git-logo.png" w-10 top-2 right-2/>
+<img absolute src="../public/git-logo.png" w-10 top-2 right-2/>
 <SlideCurrentNo absolute bottom-0 right-2/>
 <Link to="merge-rebase" absolute top-3.4 font-bold right-15 color="#db4c37">Merge - Rebase</Link>
 
@@ -20,7 +20,7 @@ routeAlias: merge-rebase
 10. <Link to="workflows">Workflows</Link>
 ---
 
-<img absolute src="../git-logo.png" w-10 top-2 right-2/>
+<img absolute src="../public/git-logo.png" w-10 top-2 right-2/>
 <SlideCurrentNo absolute bottom-0 right-2/>
 <Link to="merge-rebase" absolute top-3.4 font-bold right-15 color="#db4c37">Merge - Rebase</Link>
 
@@ -36,7 +36,7 @@ routeAlias: merge-rebase
 clicks: 1
 ---
 
-<img absolute src="../git-logo.png" w-10 top-2 right-2/>
+<img absolute src="../public/git-logo.png" w-10 top-2 right-2/>
 <SlideCurrentNo absolute bottom-0 right-2/>
 <Link to="merge-rebase" absolute top-3.4 font-bold right-15 color="#db4c37">Merge - Rebase</Link>
 
@@ -49,14 +49,14 @@ When the **destination branch** is a direct ancestor of the branch to be merged.
 git merge feature # or git merge --ff feature
 ```
 
-<img v-click="[0]" src="../merge-ff-1.svg" top-60 absolute left="50%" translate-x="-50%"/>
-<img v-click="[1]" src="../merge-ff-2.svg" top-60 absolute left="50%" translate-x="-50%"/>
+<img v-click="[0]" src="../public/merge-ff-1.svg" top-60 absolute left="50%" translate-x="-50%"/>
+<img v-click="[1]" src="../public/merge-ff-2.svg" top-60 absolute left="50%" translate-x="-50%"/>
 
 ---
 clicks: 1
 ---
 
-<img absolute src="../git-logo.png" w-10 top-2 right-2/>
+<img absolute src="../public/git-logo.png" w-10 top-2 right-2/>
 <SlideCurrentNo absolute bottom-0 right-2/>
 <Link to="merge-rebase" absolute top-3.4 font-bold right-15 color="#db4c37">Merge - Rebase</Link>
 
@@ -69,12 +69,12 @@ When branches have diverged.
 git merge feature # or git merge --no-ff feature
 ```
 
-<img v-click="[0]" src="../merge-no-ff-1.svg" top-60 absolute left="50%" translate-x="-50%"/>
-<img v-click="[1]" src="../merge-no-ff-2.svg" top-60 absolute left="50%" translate-x="-50%"/>
+<img v-click="[0]" src="../public/merge-no-ff-1.svg" top-60 absolute left="50%" translate-x="-50%"/>
+<img v-click="[1]" src="../public/merge-no-ff-2.svg" top-60 absolute left="50%" translate-x="-50%"/>
 
 ---
 
-<img absolute src="../git-logo.png" w-10 top-2 right-2/>
+<img absolute src="../public/git-logo.png" w-10 top-2 right-2/>
 <SlideCurrentNo absolute bottom-0 right-2/>
 <Link to="merge-rebase" absolute top-3.4 font-bold right-15 color="#db4c37">Merge - Rebase</Link>
 
@@ -93,13 +93,13 @@ git merge --ff-only feature
 fatal: Not possible to fast-forward, aborting.
 ```
 ````
-<img src="../merge-no-ff-1.svg" top-60 absolute left="50%" translate-x="-50%"/>
+<img src="../public/merge-no-ff-1.svg" top-60 absolute left="50%" translate-x="-50%"/>
 
 ---
 clicks: 1
 ---
 
-<img absolute src="../git-logo.png" w-10 top-2 right-2/>
+<img absolute src="../public/git-logo.png" w-10 top-2 right-2/>
 <SlideCurrentNo absolute bottom-0 right-2/>
 <Link to="merge-rebase" absolute top-3.4 font-bold right-15 color="#db4c37">Merge - Rebase</Link>
 
@@ -112,12 +112,12 @@ If we want to enforce merge commits, we can use `-no-ff` flag.
 git merge --no-ff feature
 ```
 
-<img v-click="[0]" src="../merge-no-ff-force-1.svg" top-60 absolute left="45%" translate-x="-50%"/>
-<img v-click="[1]" src="../merge-no-ff-force-2.svg" top-60 absolute left="45%" translate-x="-50%"/>
+<img v-click="[0]" src="../public/merge-no-ff-force-1.svg" top-60 absolute left="45%" translate-x="-50%"/>
+<img v-click="[1]" src="../public/merge-no-ff-force-2.svg" top-60 absolute left="45%" translate-x="-50%"/>
 
 ---
 
-<img absolute src="../git-logo.png" w-10 top-2 right-2/>
+<img absolute src="../public/git-logo.png" w-10 top-2 right-2/>
 <SlideCurrentNo absolute bottom-0 right-2/>
 <Link to="merge-rebase" absolute top-3.4 font-bold right-15 color="#db4c37">Merge - Rebase</Link>
 
@@ -136,7 +136,7 @@ What's under the hood?
 clicks: 9
 ---
 
-<img absolute src="../git-logo.png" w-10 top-2 right-2/>
+<img absolute src="../public/git-logo.png" w-10 top-2 right-2/>
 <SlideCurrentNo absolute bottom-0 right-2/>
 <Link to="merge-rebase" absolute top-3.4 font-bold right-15 color="#db4c37">Merge - Rebase</Link>
 
@@ -223,16 +223,16 @@ git reset --hard HEAD^ # after merge
 ````
 </div>
 
-<img v-click="[0]"   src="../merge-conflict-1.svg" top-78 h-60 absolute left="50%" translate-x="-50%"/>
-<img v-click="[1,3]" src="../merge-conflict-2.svg" top-78 h-60 absolute left="50%" translate-x="-50%"/>
-<img v-click="[3,7]"   src="../merge-conflict-1.svg" top-78 h-60 absolute left="50%" translate-x="-50%"/>
-<img v-click="[7,9]"   src="../merge-conflict-3.svg" top-78 h-60 absolute left="50%" translate-x="-50%"/>
-<img v-click="[9]"   src="../merge-conflict-4.svg" top-78 h-60 absolute left="50%" translate-x="-50%"/>
+<img v-click="[0]"   src="../public/merge-conflict-1.svg" top-78 h-60 absolute left="50%" translate-x="-50%"/>
+<img v-click="[1,3]" src="../public/merge-conflict-2.svg" top-78 h-60 absolute left="50%" translate-x="-50%"/>
+<img v-click="[3,7]"   src="../public/merge-conflict-1.svg" top-78 h-60 absolute left="50%" translate-x="-50%"/>
+<img v-click="[7,9]"   src="../public/merge-conflict-3.svg" top-78 h-60 absolute left="50%" translate-x="-50%"/>
+<img v-click="[9]"   src="../public/merge-conflict-4.svg" top-78 h-60 absolute left="50%" translate-x="-50%"/>
 
 ---
 
 <div border-7 border-blue absolute top-0 left-0 bottom-0 right-0 z="-1"/>
-<img absolute src="../git-logo.png" w-10 top-2 right-2/>
+<img absolute src="../public/git-logo.png" w-10 top-2 right-2/>
 <SlideCurrentNo absolute bottom-0 right-2/>
 <Link to="merge-rebase" absolute top-3.4 font-bold right-15 color="#db4c37">Merge - Rebase</Link>
 
@@ -255,7 +255,7 @@ cd merge-rebase
 ---
 
 <div border-7 border-green absolute top-0 left-0 bottom-0 right-0 z="-1"/>
-<img absolute src="../git-logo.png" w-10 top-2 right-2/>
+<img absolute src="../public/git-logo.png" w-10 top-2 right-2/>
 <SlideCurrentNo absolute bottom-0 right-2/>
 <Link to="merge-rebase" absolute top-3.4 font-bold right-15 color="#db4c37">Merge - Rebase</Link>
 
@@ -288,7 +288,7 @@ git merge hotfix --no-ff -m 'merge: merge hotfix into master'
 ---
 
 <div border-7 border-green absolute top-0 left-0 bottom-0 right-0 z="-1"/>
-<img absolute src="../git-logo.png" w-10 top-2 right-2/>
+<img absolute src="../public/git-logo.png" w-10 top-2 right-2/>
 <SlideCurrentNo absolute bottom-0 right-2/>
 <Link to="merge-rebase" absolute top-3.4 font-bold right-15 color="#db4c37">Merge - Rebase</Link>
 
@@ -319,7 +319,7 @@ git config --local merge.ff false
 clicks: 1
 ---
 
-<img absolute src="../git-logo.png" w-10 top-2 right-2/>
+<img absolute src="../public/git-logo.png" w-10 top-2 right-2/>
 <SlideCurrentNo absolute bottom-0 right-2/>
 <Link to="merge-rebase" absolute top-3.4 font-bold right-15 color="#db4c37">Merge - Rebase</Link>
 
@@ -334,14 +334,14 @@ The other way to integrate another branch changes
 git rebase main
 ```
 
-<img v-click="[0]" src="../rebase-1.svg" top-70 h-60 absolute left="50%" translate-x="-50%"/>
-<img v-click="[1]" src="../rebase-2.svg" top-70 h-60 absolute left="50%" translate-x="-50%"/>
+<img v-click="[0]" src="../public/rebase-1.svg" top-70 h-60 absolute left="50%" translate-x="-50%"/>
+<img v-click="[1]" src="../public/rebase-2.svg" top-70 h-60 absolute left="50%" translate-x="-50%"/>
 
 ---
 clicks: 7
 ---
 
-<img absolute src="../git-logo.png" w-10 top-2 right-2/>
+<img absolute src="../public/git-logo.png" w-10 top-2 right-2/>
 <SlideCurrentNo absolute bottom-0 right-2/>
 <Link to="merge-rebase" absolute top-3.4 font-bold right-15 color="#db4c37">Merge - Rebase</Link>
 
@@ -384,19 +384,19 @@ git moves the `feature` reference from `8232e` to `0c226`
 - Commits are not modified, new ones are created
 </div>
 
-<img v-click="[0]" src="../rebase-step-1.svg" top-70 h-60 absolute left="50%" translate-x="-50%"/>
-<img v-click="[1]" src="../rebase-step-2.svg" top-70 h-60 absolute left="50%" translate-x="-50%"/>
-<img v-click="[2]" src="../rebase-step-3.svg" top-70 h-60 absolute left="50%" translate-x="-50%"/>
-<img v-click="[3]" src="../rebase-step-4.svg" top-70 h-60 absolute left="50%" translate-x="-50%"/>
-<img v-click="[4]" src="../rebase-step-5.svg" top-70 h-60 absolute left="50%" translate-x="-50%"/>
-<img v-click="[5,7]" src="../rebase-step-6.svg" top-70 h-60 absolute left="50%" translate-x="-50%"/>
-<img v-click="[7]" src="../rebase-step-7.svg" top-70 h-60 absolute left="50%" translate-x="-50%"/>
+<img v-click="[0]" src="../public/rebase-step-1.svg" top-70 h-60 absolute left="50%" translate-x="-50%"/>
+<img v-click="[1]" src="../public/rebase-step-2.svg" top-70 h-60 absolute left="50%" translate-x="-50%"/>
+<img v-click="[2]" src="../public/rebase-step-3.svg" top-70 h-60 absolute left="50%" translate-x="-50%"/>
+<img v-click="[3]" src="../public/rebase-step-4.svg" top-70 h-60 absolute left="50%" translate-x="-50%"/>
+<img v-click="[4]" src="../public/rebase-step-5.svg" top-70 h-60 absolute left="50%" translate-x="-50%"/>
+<img v-click="[5,7]" src="../public/rebase-step-6.svg" top-70 h-60 absolute left="50%" translate-x="-50%"/>
+<img v-click="[7]" src="../public/rebase-step-7.svg" top-70 h-60 absolute left="50%" translate-x="-50%"/>
 
 ---
 clicks: 9
 ---
 
-<img absolute src="../git-logo.png" w-10 top-2 right-2/>
+<img absolute src="../public/git-logo.png" w-10 top-2 right-2/>
 <SlideCurrentNo absolute bottom-0 right-2/>
 <Link to="merge-rebase" absolute top-3.4 font-bold right-15 color="#db4c37">Merge - Rebase</Link>
 
@@ -490,16 +490,16 @@ git reset --hard 8232e
 ```
 </div>
 
-<img v-click="[0]" src="../rebase-step-1.svg" top-80 h-60 absolute left="50%" translate-x="-50%"/>
-<img v-click="[1,4]" src="../rebase-step-2.svg" top-80 h-60 absolute left="50%" translate-x="-50%"/>
-<img v-click="[4]" src="../rebase-step-2.svg" scale-70 top-90 h-60 absolute left="50%" translate-x="-50%"/>
-<img v-click="[5,8]" src="../rebase-step-2.svg" top-80 h-60 absolute left="50%" translate-x="-50%"/>
-<img v-click="[8,9]" src="../rebase-step-6.svg" top-80 h-60 absolute left="50%" translate-x="-50%"/>
-<img v-click="[9]" src="../rebase-step-7.svg" top-80 h-60 absolute left="50%" translate-x="-50%"/>
+<img v-click="[0]" src="../public/rebase-step-1.svg" top-80 h-60 absolute left="50%" translate-x="-50%"/>
+<img v-click="[1,4]" src="../public/rebase-step-2.svg" top-80 h-60 absolute left="50%" translate-x="-50%"/>
+<img v-click="[4]" src="../public/rebase-step-2.svg" scale-70 top-90 h-60 absolute left="50%" translate-x="-50%"/>
+<img v-click="[5,8]" src="../public/rebase-step-2.svg" top-80 h-60 absolute left="50%" translate-x="-50%"/>
+<img v-click="[8,9]" src="../public/rebase-step-6.svg" top-80 h-60 absolute left="50%" translate-x="-50%"/>
+<img v-click="[9]" src="../public/rebase-step-7.svg" top-80 h-60 absolute left="50%" translate-x="-50%"/>
 
 ---
 
-<img absolute src="../git-logo.png" w-10 top-2 right-2/>
+<img absolute src="../public/git-logo.png" w-10 top-2 right-2/>
 <SlideCurrentNo absolute bottom-0 right-2/>
 <Link to="merge-rebase" absolute top-3.4 font-bold right-15 color="#db4c37">Merge - Rebase</Link>
 
@@ -520,7 +520,7 @@ Ze question.
 ---
 
 <div border-7 border-blue absolute top-0 left-0 bottom-0 right-0 z="-1"/>
-<img absolute src="../git-logo.png" w-10 top-2 right-2/>
+<img absolute src="../public/git-logo.png" w-10 top-2 right-2/>
 <SlideCurrentNo absolute bottom-0 right-2/>
 <Link to="merge-rebase" absolute top-3.4 font-bold right-15 color="#db4c37">Merge - Rebase</Link>
 
@@ -544,7 +544,7 @@ cd tp-rebase-conflict
 ---
 
 <div border-7 border-green absolute top-0 left-0 bottom-0 right-0 z="-1"/>
-<img absolute src="../git-logo.png" w-10 top-2 right-2/>
+<img absolute src="../public/git-logo.png" w-10 top-2 right-2/>
 <SlideCurrentNo absolute bottom-0 right-2/>
 <Link to="merge-rebase" absolute top-3.4 font-bold right-15 color="#db4c37">Merge - Rebase</Link>
 
@@ -576,7 +576,7 @@ git merge feature # It's fast forward mode
 ---
 
 <div border-7 border-green absolute top-0 left-0 bottom-0 right-0 z="-1"/>
-<img absolute src="../git-logo.png" w-10 top-2 right-2/>
+<img absolute src="../public/git-logo.png" w-10 top-2 right-2/>
 <SlideCurrentNo absolute bottom-0 right-2/>
 <Link to="merge-rebase" absolute top-3.4 font-bold right-15 color="#db4c37">Merge - Rebase</Link>
 
@@ -603,7 +603,7 @@ git rebase --continue
 ---
 
 <div border-7 border-green absolute top-0 left-0 bottom-0 right-0 z="-1"/>
-<img absolute src="../git-logo.png" w-10 top-2 right-2/>
+<img absolute src="../public/git-logo.png" w-10 top-2 right-2/>
 <SlideCurrentNo absolute bottom-0 right-2/>
 <Link to="merge-rebase" absolute top-3.4 font-bold right-15 color="#db4c37">Merge - Rebase</Link>
 

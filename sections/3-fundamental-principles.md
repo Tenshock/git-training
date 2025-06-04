@@ -2,7 +2,7 @@
 routeAlias: fundamental-principles
 ---
 
-<img absolute src="../git-logo.png" w-10 top-2 right-2/>
+<img absolute src="../public/git-logo.png" w-10 top-2 right-2/>
 <SlideCurrentNo absolute bottom-0 right-2/>
 <Link to="fundamental-principles" absolute top-3.4 font-bold right-15 color="#db4c37">Fundamental principles</Link>
 
@@ -20,7 +20,7 @@ routeAlias: fundamental-principles
 10. <Link to="workflows">Workflows</Link>
 ---
 
-<img absolute src="../git-logo.png" w-10 top-2 right-2/>
+<img absolute src="../public/git-logo.png" w-10 top-2 right-2/>
 <SlideCurrentNo absolute bottom-0 right-2/>
 <Link to="fundamental-principles" absolute top-3.4 font-bold right-15 color="#db4c37">Fundamental principles</Link>
 
@@ -41,7 +41,7 @@ routeAlias: fundamental-principles
 
 ---
 
-<img absolute src="../git-logo.png" w-10 top-2 right-2/>
+<img absolute src="../public/git-logo.png" w-10 top-2 right-2/>
 <SlideCurrentNo absolute bottom-0 right-2/>
 <Link to="fundamental-principles" absolute top-3.4 font-bold right-15 color="#db4c37">Fundamental principles</Link>
 
@@ -67,7 +67,7 @@ routeAlias: fundamental-principles
 
 ---
 
-<img absolute src="../git-logo.png" w-10 top-2 right-2/>
+<img absolute src="../public/git-logo.png" w-10 top-2 right-2/>
 <SlideCurrentNo absolute bottom-0 right-2/>
 <Link to="fundamental-principles" absolute top-3.4 font-bold right-15 color="#db4c37">Fundamental principles</Link>
 
@@ -95,17 +95,17 @@ Stored in `.git/objects/` (CAS)
 
 ---
 
-<img absolute src="../git-logo.png" w-10 top-2 right-2/>
+<img absolute src="../public/git-logo.png" w-10 top-2 right-2/>
 <SlideCurrentNo absolute bottom-0 right-2/>
 <Link to="fundamental-principles" absolute top-3.4 font-bold right-15 color="#db4c37">Fundamental principles</Link>
 
 # A commit = a snapshot
 
-<img src="../commit-snapshot.svg" />
+<img src="../public/commit-snapshot.svg" />
 
 ---
 
-<img absolute src="../git-logo.png" w-10 top-2 right-2/>
+<img absolute src="../public/git-logo.png" w-10 top-2 right-2/>
 <SlideCurrentNo absolute bottom-0 right-2/>
 <Link to="fundamental-principles" absolute top-3.4 font-bold right-15 color="#db4c37">Fundamental principles</Link>
 
@@ -128,7 +128,7 @@ Stored in `.git/objects/` (CAS)
 
 ---
 
-<img absolute src="../git-logo.png" w-10 top-2 right-2/>
+<img absolute src="../public/git-logo.png" w-10 top-2 right-2/>
 <SlideCurrentNo absolute bottom-0 right-2/>
 <Link to="fundamental-principles" absolute top-3.4 font-bold right-15 color="#db4c37">Fundamental principles</Link>
 
@@ -137,11 +137,11 @@ A Git History representation
 
 The *repository* contains **ALL** commits, which may be organized as an **acyclic oriented graph**.
 
-<img v-click src="../git-graph.svg" ml-auto mr-auto mt-20 h-50>
+<img v-click src="../public/git-graph.svg" ml-auto mr-auto mt-20 h-50>
 
 ---
 
-<img absolute src="../git-logo.png" w-10 top-2 right-2/>
+<img absolute src="../public/git-logo.png" w-10 top-2 right-2/>
 <SlideCurrentNo absolute bottom-0 right-2/>
 <Link to="fundamental-principles" absolute top-3.4 font-bold right-15 color="#db4c37">Fundamental principles</Link>
 
@@ -161,7 +161,7 @@ The file name is the **reference name**, the file content is the **reference tar
 
 ---
 
-<img absolute src="../git-logo.png" w-10 top-2 right-2/>
+<img absolute src="../public/git-logo.png" w-10 top-2 right-2/>
 <SlideCurrentNo absolute bottom-0 right-2/>
 <Link to="fundamental-principles" absolute top-3.4 font-bold right-15 color="#db4c37">Fundamental principles</Link>
 
@@ -202,7 +202,7 @@ column                    fetch-pack                log                       na
 layout: fact
 ---
 
-<img absolute src="../git-logo.png" w-10 top-2 right-2/>
+<img absolute src="../public/git-logo.png" w-10 top-2 right-2/>
 <SlideCurrentNo absolute bottom-0 right-2/>
 <Link to="fundamental-principles" absolute top-3.4 font-bold right-15 color="#db4c37">Fundamental principles</Link>
 
@@ -212,7 +212,7 @@ layout: fact
 
 ---
 
-<img absolute src="../git-logo.png" w-10 top-2 right-2/>
+<img absolute src="../public/git-logo.png" w-10 top-2 right-2/>
 <SlideCurrentNo absolute bottom-0 right-2/>
 <Link to="fundamental-principles" absolute top-3.4 font-bold right-15 color="#db4c37">Fundamental principles</Link>
 
@@ -231,7 +231,7 @@ commit       prune     rm         worktree
 
 ---
 
-<img absolute src="../git-logo.png" w-10 top-2 right-2/>
+<img absolute src="../public/git-logo.png" w-10 top-2 right-2/>
 <SlideCurrentNo absolute bottom-0 right-2/>
 <Link to="fundamental-principles" absolute top-3.4 font-bold right-15 color="#db4c37">Fundamental principles</Link>
 
@@ -256,7 +256,7 @@ Two main types
 
 ---
 
-<img absolute src="../git-logo.png" w-10 top-2 right-2/>
+<img absolute src="../public/git-logo.png" w-10 top-2 right-2/>
 <SlideCurrentNo absolute bottom-0 right-2/>
 <Link to="fundamental-principles" absolute top-3.4 font-bold right-15 color="#db4c37">Fundamental principles</Link>
 
@@ -280,7 +280,7 @@ The most useful command, **the one to remember**.
 ---
 
 <div border-7 border-blue absolute top-0 left-0 bottom-0 right-0 z="-1"/>
-<img absolute src="../git-logo.png" w-10 top-2 right-2/>
+<img absolute src="../public/git-logo.png" w-10 top-2 right-2/>
 <SlideCurrentNo absolute bottom-0 right-2/>
 <Link to="fundamental-principles" absolute top-3.4 font-bold right-15 color="#db4c37">Fundamental principles</Link>
 
@@ -300,7 +300,7 @@ The most useful command, **the one to remember**.
 ---
 
 <div border-7 border-green absolute top-0 left-0 bottom-0 right-0 z="-1"/>
-<img absolute src="../git-logo.png" w-10 top-2 right-2/>
+<img absolute src="../public/git-logo.png" w-10 top-2 right-2/>
 <SlideCurrentNo absolute bottom-0 right-2/>
 <Link to="fundamental-principles" absolute top-3.4 font-bold right-15 color="#db4c37">Fundamental principles</Link>
 
@@ -331,7 +331,7 @@ echo 'Hello' > myfile
 ---
 
 <div border-7 border-green absolute top-0 left-0 bottom-0 right-0 z="-1"/>
-<img absolute src="../git-logo.png" w-10 top-2 right-2/>
+<img absolute src="../public/git-logo.png" w-10 top-2 right-2/>
 <SlideCurrentNo absolute bottom-0 right-2/>
 <Link to="fundamental-principles" absolute top-3.4 font-bold right-15 color="#db4c37">Fundamental principles</Link>
 

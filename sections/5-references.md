@@ -2,7 +2,7 @@
 routeAlias: references
 ---
 
-<img absolute src="../git-logo.png" w-10 top-2 right-2/>
+<img absolute src="../public/git-logo.png" w-10 top-2 right-2/>
 <SlideCurrentNo absolute bottom-0 right-2/>
 <Link to="references" absolute top-3.4 font-bold right-15 color="#db4c37">References</Link>
 
@@ -20,7 +20,7 @@ routeAlias: references
 10. <Link to="workflows">Workflows</Link>
 ---
 
-<img absolute src="../git-logo.png" w-10 top-2 right-2/>
+<img absolute src="../public/git-logo.png" w-10 top-2 right-2/>
 <SlideCurrentNo absolute bottom-0 right-2/>
 <Link to="references" absolute top-3.4 font-bold right-15 color="#db4c37">References</Link>
 
@@ -41,7 +41,7 @@ routeAlias: references
 clicks: 2
 ---
 
-<img absolute src="../git-logo.png" w-10 top-2 right-2/>
+<img absolute src="../public/git-logo.png" w-10 top-2 right-2/>
 <SlideCurrentNo absolute bottom-0 right-2/>
 <Link to="references" absolute top-3.4 font-bold right-15 color="#db4c37">References</Link>
 
@@ -54,15 +54,15 @@ git branch feature
 git commit
 ```
 
-<img v-click="[0]" src="../create-branch-1.svg" mt-10 absolute left="50%" translate-x="-50%"/>
-<img v-click="[1]" src="../create-branch-2.svg" mt-10 absolute left="50%" translate-x="-50%"/>
-<img v-click="[2]" src="../create-branch-3.svg" mt-10 absolute left="50%" translate-x="-50%"/>
+<img v-click="[0]" src="../public/create-branch-1.svg" mt-10 absolute left="50%" translate-x="-50%"/>
+<img v-click="[1]" src="../public/create-branch-2.svg" mt-10 absolute left="50%" translate-x="-50%"/>
+<img v-click="[2]" src="../public/create-branch-3.svg" mt-10 absolute left="50%" translate-x="-50%"/>
 
 ---
 clicks: 2
 ---
 
-<img absolute src="../git-logo.png" w-10 top-2 right-2/>
+<img absolute src="../public/git-logo.png" w-10 top-2 right-2/>
 <SlideCurrentNo absolute bottom-0 right-2/>
 <Link to="references" absolute top-3.4 font-bold right-15 color="#db4c37">References</Link>
 
@@ -75,13 +75,13 @@ git switch --create feature # or git switch -c feature
 git commit
 ```
 
-<img v-click="[0]" src="../create-branch-switch-1.svg" mt-10 absolute left="50%" translate-x="-50%"/>
-<img v-click="[1]" src="../create-branch-switch-2.svg" mt-10 absolute left="50%" translate-x="-50%"/>
-<img v-click="[2]" src="../create-branch-switch-3.svg" mt-10 absolute left="50%" translate-x="-50%"/>
+<img v-click="[0]" src="../public/create-branch-switch-1.svg" mt-10 absolute left="50%" translate-x="-50%"/>
+<img v-click="[1]" src="../public/create-branch-switch-2.svg" mt-10 absolute left="50%" translate-x="-50%"/>
+<img v-click="[2]" src="../public/create-branch-switch-3.svg" mt-10 absolute left="50%" translate-x="-50%"/>
 
 ---
 
-<img absolute src="../git-logo.png" w-10 top-2 right-2/>
+<img absolute src="../public/git-logo.png" w-10 top-2 right-2/>
 <SlideCurrentNo absolute bottom-0 right-2/>
 <Link to="references" absolute top-3.4 font-bold right-15 color="#db4c37">References</Link>
 
@@ -120,7 +120,7 @@ da311acf046236625b19e0c1c149b99ddde9dc39
 clicks: 4
 ---
 
-<img absolute src="../git-logo.png" w-10 top-2 right-2/>
+<img absolute src="../public/git-logo.png" w-10 top-2 right-2/>
 <SlideCurrentNo absolute bottom-0 right-2/>
 <Link to="references" absolute top-3.4 font-bold right-15 color="#db4c37">References</Link>
 
@@ -136,9 +136,9 @@ error: The branch 'fix1' is not fully merged
 git branch --delete --force fix1 # or git branch -D fix1
 ```
 
-<img v-click="[0,1]" src="../delete-branch-1.svg" scale="90" mt="-5" absolute left="10%" />
-<img v-click="[1,3]" src="../delete-branch-2.svg" scale="90" mt="-5" absolute left="10%" />
-<img v-click="[3,5]" src="../delete-branch-3.svg" scale="90" mt="-5" absolute left="10%" />
+<img v-click="[0,1]" src="../public/delete-branch-1.svg" scale="90" mt="-5" absolute left="10%" />
+<img v-click="[1,3]" src="../public/delete-branch-2.svg" scale="90" mt="-5" absolute left="10%" />
+<img v-click="[3,5]" src="../public/delete-branch-3.svg" scale="90" mt="-5" absolute left="10%" />
 
 <div v-click w-100 ml-100 mt-17 border border-blue border-4 pl-3 pr-3>
 
@@ -151,7 +151,7 @@ The **commit** is <span v-mark.green.highlight="{at: 4, animate: false}">preserv
 clicks: 5
 ---
 
-<img absolute src="../git-logo.png" w-10 top-2 right-2/>
+<img absolute src="../public/git-logo.png" w-10 top-2 right-2/>
 <SlideCurrentNo absolute bottom-0 right-2/>
 <Link to="references" absolute top-3.4 font-bold right-15 color="#db4c37">References</Link>
 
@@ -177,15 +177,15 @@ git switch -c hotfix
 ```
 </div>
 
-<img v-click="[0]" src="../switch-1.svg" scale="85" top-60 absolute left="50%" />
-<img v-click="[1]" src="../switch-2.svg" scale="85" top-60 absolute left="50%" />
-<img v-click="[2]" src="../switch-3.svg" scale="85" top-60 absolute left="50%" />
-<img v-click="[3]" src="../switch-4.svg" scale="85" top-60 absolute left="50%" />
-<img v-click="[4,6]" src="../switch-5.svg" scale="85" top-60 absolute left="50%" />
+<img v-click="[0]" src="../public/switch-1.svg" scale="85" top-60 absolute left="50%" />
+<img v-click="[1]" src="../public/switch-2.svg" scale="85" top-60 absolute left="50%" />
+<img v-click="[2]" src="../public/switch-3.svg" scale="85" top-60 absolute left="50%" />
+<img v-click="[3]" src="../public/switch-4.svg" scale="85" top-60 absolute left="50%" />
+<img v-click="[4,6]" src="../public/switch-5.svg" scale="85" top-60 absolute left="50%" />
 
 ---
 
-<img absolute src="../git-logo.png" w-10 top-2 right-2/>
+<img absolute src="../public/git-logo.png" w-10 top-2 right-2/>
 <SlideCurrentNo absolute bottom-0 right-2/>
 <Link to="references" absolute top-3.4 font-bold right-15 color="#db4c37">References</Link>
 
@@ -224,7 +224,7 @@ By default, _unreachable_ commits have a lifespan of **30 days**.
 clicks: 2
 ---
 
-<img absolute src="../git-logo.png" w-10 top-2 right-2/>
+<img absolute src="../public/git-logo.png" w-10 top-2 right-2/>
 <SlideCurrentNo absolute bottom-0 right-2/>
 <Link to="references" absolute top-3.4 font-bold right-15 color="#db4c37">References</Link>
 
@@ -246,12 +246,12 @@ git reset 33a2d # or git reset @^^ or git reset HEAD~2
 ```
 </div>
 
-<img v-click="[1]" src="../reset-1.svg" scale="85" top-82 absolute left="40%" />
-<img v-click="[2]" src="../reset-2.svg" scale="85" top-82 absolute left="40%" />
+<img v-click="[1]" src="../public/reset-1.svg" scale="85" top-82 absolute left="40%" />
+<img v-click="[2]" src="../public/reset-2.svg" scale="85" top-82 absolute left="40%" />
 
 ---
 
-<img absolute src="../git-logo.png" w-10 top-2 right-2/>
+<img absolute src="../public/git-logo.png" w-10 top-2 right-2/>
 <SlideCurrentNo absolute bottom-0 right-2/>
 <Link to="references" absolute top-3.4 font-bold right-15 color="#db4c37">References</Link>
 
@@ -275,13 +275,13 @@ How to handle `working tree` and `index`
 |`reset --hard` | 33a2d | 33a2d |
 </div>
 
-<img v-click="1" src="../reset-2.svg" scale="80" top-80 absolute left="40%" />
+<img v-click="1" src="../public/reset-2.svg" scale="80" top-80 absolute left="40%" />
 
 ---
 clicks: 6
 ---
 
-<img absolute src="../git-logo.png" w-10 top-2 right-2/>
+<img absolute src="../public/git-logo.png" w-10 top-2 right-2/>
 <SlideCurrentNo absolute bottom-0 right-2/>
 <Link to="references" absolute top-3.4 font-bold right-15 color="#db4c37">References</Link>
 
@@ -311,15 +311,15 @@ cat .git/refs/tags/1.0.0
 9ff2486e8a04e3437ef93d2869c00c3300a11349
 ```
 
-<img v-click="[0]" src="../tag-1.svg" top-45 absolute left="50%" />
-<img v-click="[1]" src="../tag-2.svg" top-45 absolute left="50%" />
-<img v-click="[2]" src="../tag-3.svg" top-45 absolute left="50%" />
-<img v-click="[3,7]" src="../tag-4.svg" top-45 absolute left="50%" />
+<img v-click="[0]" src="../public/tag-1.svg" top-45 absolute left="50%" />
+<img v-click="[1]" src="../public/tag-2.svg" top-45 absolute left="50%" />
+<img v-click="[2]" src="../public/tag-3.svg" top-45 absolute left="50%" />
+<img v-click="[3,7]" src="../public/tag-4.svg" top-45 absolute left="50%" />
 
 ---
 
 <div border-7 border-blue absolute top-0 left-0 bottom-0 right-0 z="-1"/>
-<img absolute src="../git-logo.png" w-10 top-2 right-2/>
+<img absolute src="../public/git-logo.png" w-10 top-2 right-2/>
 <SlideCurrentNo absolute bottom-0 right-2/>
 <Link to="references" absolute top-3.4 font-bold right-15 color="#db4c37">References</Link>
 
@@ -346,7 +346,7 @@ git switch sandbox # ⚠️
 ---
 
 <div border-7 border-green absolute top-0 left-0 bottom-0 right-0 z="-1"/>
-<img absolute src="../git-logo.png" w-10 top-2 right-2/>
+<img absolute src="../public/git-logo.png" w-10 top-2 right-2/>
 <SlideCurrentNo absolute bottom-0 right-2/>
 <Link to="references" absolute top-3.4 font-bold right-15 color="#db4c37">References</Link>
 
@@ -384,7 +384,7 @@ git switch -c test
 ---
 
 <div border-7 border-green absolute top-0 left-0 bottom-0 right-0 z="-1"/>
-<img absolute src="../git-logo.png" w-10 top-2 right-2/>
+<img absolute src="../public/git-logo.png" w-10 top-2 right-2/>
 <SlideCurrentNo absolute bottom-0 right-2/>
 <Link to="references" absolute top-3.4 font-bold right-15 color="#db4c37">References</Link>
 
@@ -420,7 +420,7 @@ git tag --list
 ---
 
 <div border-7 border-green absolute top-0 left-0 bottom-0 right-0 z="-1"/>
-<img absolute src="../git-logo.png" w-10 top-2 right-2/>
+<img absolute src="../public/git-logo.png" w-10 top-2 right-2/>
 <SlideCurrentNo absolute bottom-0 right-2/>
 <Link to="references" absolute top-3.4 font-bold right-15 color="#db4c37">References</Link>
 

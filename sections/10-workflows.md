@@ -2,7 +2,7 @@
 routeAlias: workflows
 ---
 
-<img absolute src="../git-logo.png" w-10 top-2 right-2/>
+<img absolute src="../public/git-logo.png" w-10 top-2 right-2/>
 <SlideCurrentNo absolute bottom-0 right-2/>
 <Link to="workflows" absolute top-3.4 font-bold right-15 color="#db4c37">Workflows</Link>
 
@@ -21,7 +21,7 @@ routeAlias: workflows
 
 ---
 
-<img absolute src="../git-logo.png" w-10 top-2 right-2/>
+<img absolute src="../public/git-logo.png" w-10 top-2 right-2/>
 <SlideCurrentNo absolute bottom-0 right-2/>
 <Link to="workflows" absolute top-3.4 font-bold right-15 color="#db4c37">Workflows</Link>
 
@@ -52,7 +52,7 @@ routeAlias: workflows
 layout: quote
 ---
 
-<img absolute src="../git-logo.png" w-10 top-2 right-2/>
+<img absolute src="../public/git-logo.png" w-10 top-2 right-2/>
 <SlideCurrentNo absolute bottom-0 right-2/>
 <Link to="workflows" absolute top-3.4 font-bold right-15 color="#db4c37">Workflows</Link>
 
@@ -62,7 +62,7 @@ layout: quote
 
 ---
 
-<img absolute src="../git-logo.png" w-10 top-2 right-2/>
+<img absolute src="../public/git-logo.png" w-10 top-2 right-2/>
 <SlideCurrentNo absolute bottom-0 right-2/>
 <Link to="workflows" absolute top-3.4 font-bold right-15 color="#db4c37">Workflows</Link>
 
@@ -82,7 +82,7 @@ layout: quote
 
 ---
 
-<img absolute src="../git-logo.png" w-10 top-2 right-2/>
+<img absolute src="../public/git-logo.png" w-10 top-2 right-2/>
 <SlideCurrentNo absolute bottom-0 right-2/>
 <Link to="workflows" absolute top-3.4 font-bold right-15 color="#db4c37">Workflows</Link>
 
@@ -99,11 +99,11 @@ layout: quote
 - Each branch type has a role
 </v-clicks>
 
-<img absolute src="../gitflow.png" top-30 left-90 w-150 />
+<img absolute src="../public/gitflow.png" top-30 left-90 w-150 />
 
 ---
 
-<img absolute src="../git-logo.png" w-10 top-2 right-2/>
+<img absolute src="../public/git-logo.png" w-10 top-2 right-2/>
 <SlideCurrentNo absolute bottom-0 right-2/>
 <Link to="workflows" absolute top-3.4 font-bold right-15 color="#db4c37">Workflows</Link>
 
@@ -125,7 +125,7 @@ One branch ("**trunk**") as the single source of truth
   
 ---
 
-<img absolute src="../git-logo.png" w-10 top-2 right-2/>
+<img absolute src="../public/git-logo.png" w-10 top-2 right-2/>
 <SlideCurrentNo absolute bottom-0 right-2/>
 <Link to="workflows" absolute top-3.4 font-bold right-15 color="#db4c37">Workflows</Link>
 
@@ -136,11 +136,11 @@ One branch ("**trunk**") as the single source of truth
   - Huge deviation between the mainline and the active branch
   - Rises the risk for a big-bang merge with a lot of pain
 
-<img absolute src="../trunk-1.png" top-70 left="50%" translate-x="-50%" />
+<img absolute src="../public/trunk-1.png" top-70 left="50%" translate-x="-50%" />
 
 ---
 
-<img absolute src="../git-logo.png" w-10 top-2 right-2/>
+<img absolute src="../public/git-logo.png" w-10 top-2 right-2/>
 <SlideCurrentNo absolute bottom-0 right-2/>
 <Link to="workflows" absolute top-3.4 font-bold right-15 color="#db4c37">Workflows</Link>
 
@@ -149,11 +149,11 @@ One branch ("**trunk**") as the single source of truth
 
 Trunk-Based Development for smaller teams
 
-<img absolute src="../trunk-2.png" top-50 h-70 left="50%" translate-x="-50%" />
+<img absolute src="../public/trunk-2.png" top-50 h-70 left="50%" translate-x="-50%" />
 
 ---
 
-<img absolute src="../git-logo.png" w-10 top-2 right-2/>
+<img absolute src="../public/git-logo.png" w-10 top-2 right-2/>
 <SlideCurrentNo absolute bottom-0 right-2/>
 <Link to="workflows" absolute top-3.4 font-bold right-15 color="#db4c37">Workflows</Link>
 
@@ -162,11 +162,11 @@ Trunk-Based Development for smaller teams
 
 **Scaled** Trunk-Based Development
 
-<img absolute src="../trunk-3.png" top-50 h-78 left="50%" translate-x="-50%" />
+<img absolute src="../public/trunk-3.png" top-50 h-78 left="50%" translate-x="-50%" />
 
 ---
 
-<img absolute src="../git-logo.png" w-10 top-2 right-2/>
+<img absolute src="../public/git-logo.png" w-10 top-2 right-2/>
 <SlideCurrentNo absolute bottom-0 right-2/>
 <Link to="workflows" absolute top-3.4 font-bold right-15 color="#db4c37">Workflows</Link>
 
@@ -179,7 +179,7 @@ Trunk-Based Development for smaller teams
 layout: end
 ---
 
-<img absolute src="../git-logo.png" w-10 top-2 right-2/>
+<img absolute src="../public/git-logo.png" w-10 top-2 right-2/>
 <SlideCurrentNo absolute bottom-0 right-2/>
 
 # Thanks
