@@ -198,7 +198,7 @@ How to proceed
 git rebase --edit-todo
 
 # Skip the current step and go to next step
-git rebase -skip
+git rebase --skip
 
 # Abort rebase
 git rebase --abort
@@ -290,7 +290,7 @@ cd interactive-rebase
 git switch interactive-rebase
 ```
 
-1. Move the commit `add file5,fil6` such as it becomes the parent of `add file3` commit
+1. Move the commit `add file5,file6` such as it becomes the parent of `add file3` commit
 2. Delete the commit `add file2` (2 ways)
 3. Edit the commit `add file3` by modifying the content of the file `file3`
 4. Merge commits `add file3` and `add file4` and modify the new commit message
@@ -306,7 +306,7 @@ git switch interactive-rebase
 
 # Correction
 
-1. Move the commit `add file5,fil6` such as it becomes the parent of `add file3` commit
+1. Move the commit `add file5,file6` such as it becomes the parent of `add file3` commit
 ```bash
 git rebase -i @~3
 pick 4d2d80b add file3

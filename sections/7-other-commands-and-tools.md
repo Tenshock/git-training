@@ -391,13 +391,13 @@ Allows to perform a dichotomic search to find some changes.
 git bisect start
 
 # Defines the good commit
-git bisect good \<commit>
+git bisect good <commit>
 
 # Defines the bad commit
-git bisect bad \<commit>
+git bisect bad <commit>
 
 # Skip a step
-git bisect skip \<commit>
+git bisect skip <commit>
 ```
 
 <div mt-5/>

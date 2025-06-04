@@ -333,7 +333,7 @@ git switch sandbox # ⚠️
 
 1. Add a file `LICENSE` and commit it
 2. Do modifications in `sandbox.txt` and commit it
-3. Go back enough to cancel the `LICENCE` file add but still commit the modifications made to `sandbox.txt`
+3. Go back enough to cancel the `LICENSE` file add but still commit the modifications made to `sandbox.txt`
 4. Create a branch `test` from commit 52cd07e and switch on it
 5. Add a file `test.txt` and commit it
 6. List local branches
@@ -366,7 +366,7 @@ echo "some content" >> sandbox.txt
 git commit -am "chore: update sandbox file"
 ```
 
-3. Go back enough to cancel the `LICENCE` file add but still commit the modifications made to `sandbox.txt`
+3. Go back enough to cancel the `LICENSE` file add but still commit the modifications made to `sandbox.txt`
 ```bash
 git reset --mixed HEAD~2
 rm LICENSE

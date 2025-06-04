@@ -64,10 +64,10 @@ A commit reference.
   - Short id: `9269d99`
   - current commit: `HEAD`, `@`
 - <span v-mark.green.highlight="{at: 2, animate: false}">**Relative references**</span>:
-  - Parent: `\<commit>^`
-  - Grandparent: `\<commit>^^`
-  - N-th commit ancestor: `\<commit>~n`
-  - N-th commit parent (in a merge case): `\<commit>^n`
+  - Parent: `<commit>^`
+  - Grandparent: `<commit>^^`
+  - N-th commit ancestor: `<commit>~n`
+  - N-th commit parent (in a merge case): `<commit>^n`
   - commit range (2nd boundary excluded): `<commit2>..<commit1>` OR `<commit2> ^<commit1>`
 
 </v-clicks>
@@ -278,7 +278,7 @@ git diff [<pathspec>]
 git diff --staged [<pathspec>]
 
 # Differences between 2 commits for a given pathspec
-git diff \<commit> \<commit> <pathspec>
+git diff <commit> <commit> <pathspec>
 ```
 <div v-click="3" mt-20>
 
@@ -298,7 +298,7 @@ To add a new commit to the repository: the index content is used to create a new
 
 ```bash {1,2|4,5|7,8|*}
 # Adds a new commit with a message
-git commit  --message <message> [--message <message>] # or git commit -m
+git commit --message <message> [--message <message>] # or git commit -m
 
 # Adds a new commit with the message being written in an editor
 git commit
@@ -345,7 +345,7 @@ To show the commits history, messages, updates, etc:
 git log
 
 # Shows history from another reference
-git log \<commit> # May be a branch, a relative reference, etc
+git log <commit> # May be a branch, a relative reference, etc
 
 # Shows history while limiting commits
 git log -n4
@@ -384,7 +384,7 @@ git log --graph
 11. Revert changes on the `README.md` file, it must be in status `unmodified` then
 12. Show all modifications between the two last commits (find 3 ways to do it)
 13. **BONUS**: Retrieve the `CONTRIBUTING.md` file state as at its creation, only in the working tree. Then, re-update its state to `unmodified`
-14. **BONUS**: update the last commit so that the author is your neighbor et the date is yesterday
+14. **BONUS**: update the last commit so that the author is your neighbor and the date is yesterday
 
 </div>
 ---
