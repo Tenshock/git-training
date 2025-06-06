@@ -459,7 +459,7 @@ Commits flavors:
 - `git commit --fixup <commit>`: Creates a fixup commit that targets `<commit>`, leaving the target `<commit>` message as is
 - `git commit --fixup amend:<commit>`: Creates an amend commit that also updates the target `<commit>` message
 - `git commit --fixup reword:<commit>`: Creates a commit that will only updates the target `<commit>` message
-- `git commit --stash <commit>`: Creates a commit that will stash with the target `<commit>`
+- `git commit --squash <commit>`: Creates a commit that will squash with the target `<commit>`
 
 <div mt-5/>
 
@@ -529,7 +529,7 @@ Successfully rebased and updated refs/heads/main.
 ```bash
 git clone https://github.com/Tenshock/git-exercise.git interactive-rebase-autosquash
 cd interactive-rebase-autosquash
-git switch interactive-rebase-autosquash
+git switch interactive-rebase
 ```
 
 1. Update the content of `file3` and with a fixup commit, update the `add file3` commit
