@@ -572,7 +572,7 @@ cd bisect
 
 <div mt-10/>
 
-1. In the `bisect` branch, find the first commit where the `README.md` is equal to `bad`, without **run**. You can use the `begin` as the first good commit
+1. In the `bisect` branch, find the first commit where the `README.md` is equal to `bad`, without **run**. You can use the `begin` tag as the first good commit
 2. In the `bisect-run` branch, retrieve the `command.sh` file from the `command` branch
 3. Find the first commit where `README.md` is equal to `bad`, **with a bisect run**. You can use the `begin-run` tag as the first good commit
 
@@ -585,7 +585,7 @@ cd bisect
 
 # Correction
 
-1. In the `bisect` branch, find the first commit where the `README.md` is equal to `bad`, without **run**. You can use the `begin` as the first good commit
+1. In the `bisect` branch, find the first commit where the `README.md` is equal to `bad`, without **run**. You can use the `begin` tag as the first good commit
 ```bash
 git switch bisect
 git bisect start
