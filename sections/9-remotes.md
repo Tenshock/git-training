@@ -180,7 +180,7 @@ clicks: 9
 To upload changes to remotes repository
 
 - By default, publish all commits from local branch to its remote counterpart
-- Only a fast-forward merge is authorised, the pull aborts if it is not the case
+- Only a fast-forward merge is authorised, the push aborts if it is not the case
 
 <div v-click="1">
 

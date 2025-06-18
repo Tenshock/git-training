@@ -334,7 +334,7 @@ echo 'Another line' >> README.md
 
 6. Go back to the main worktree, delete all other linked worktrees
 ```bash
-cd ../tp-worktree
+cd ../worktree-tp
 git worktree remove feature
 git worktree remove my-worktree --force # or -f
 ```
